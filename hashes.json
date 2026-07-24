@@ -1,0 +1,5 @@
+{
+  "version": "TEMPLATE - NOT FOR PRODUCTION USE",
+  "note": "هذا الملف قالب فاضي. ميزة التنظيف العميق (Deep Clean) لن تعمل ولن تحذف أي شيء لين تستبدل هذا الملف بقاعدة بيانات حقيقية مبنية من نسخة نظيفة ومُتحقق منها (Verify Integrity) من اللعبة. شغّل: node tools/generate-hashes.js \"<مسار مجلد اللعبة النظيف>\" لبناء الملف الحقيقي. راجع docs/DEEP_CLEAN.md لمزيد من التفاصيل.",
+  "files": {}
+}
