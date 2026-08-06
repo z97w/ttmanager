@@ -1,33 +1,33 @@
-t="اشياء "
+t="التحديث القادم"
 
-*Browse Mods*
+*اضافات*
 
-- Improved loading speed.
-- Better category detection.
-- Better archive management.
+- ارشفة التخزين 
+- اكواد خاصة بالمجلدات لتداول اكثر من مود مره واحده
+line;
+
+t="التحسينات"
+
+*تحسينات جديدة للبرنامج*
+
+- تحسين في المظهر
+- سلاسة التحكم
+- سهولة التحكم
 
 line;
 
-t="New Features"
+t="اصلاح المشاكل"
 
-*Upcoming Updates*
-
-- Added automatic skin detection.
-- Added save archive improvements.
-- Added GitHub synchronization.
+- اصلاح مشكلة التحميل
+- اصلاح مشكلة التحكم 
+- اصلاح مشكلة التبديل بين اللغات
 
 line;
 
-t="Bug Fixes"
+t="روابط مهمه."
 
-- Fixed download queue.
-- Fixed Deep Clean issues.
-- Fixed language switching.
+a="https://hevilzplatform.com/mods?sort=new",n="موقعنا في موقع Hevilzplatform.com"
 
-line;
-
-t="Useful Links"
-
-a="https://github.com/z97w/ttmanager",n="GitHub Repository"
+a="https://hevilzplatform.com/account/z97w",n="حسابي في الموقع"
 
 a="https://hevilzplatform.com",n="Hevilz Platform"
