@@ -3268,16 +3268,33 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/99.jpg",
       "download": "https://www.mediafire.com/file/flubmf0diis0uej/BIOHAZARD_Mod_RE4_UHD.zip/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/116"
+      },
+      "installType": "standard-bin32-bio4",
+      "installTypeScope": "Biological Hazard ( the main )",
+      "selectableAddOns": {
+        "groups": [
+          {
+            "id": "difficulty",
+            "label": "Difficulty",
+            "type": "single",
+            "options": [
+              {
+                "id": "normal",
+                "label": "Normal",
+                "default": true,
+                "noop": true
+              },
+              {
+                "id": "easy",
+                "label": "Easy",
+                "namedFolderCopy": "Easy"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -3544,17 +3561,35 @@
       ],
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/86.jpg",
       "download": "https://www.mediafire.com/file_premium/16p8krnwzoy4ipj/Re4-UHD_Medieval_Era_Mod.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/129"
-      }
+      },
+      "installVariants": [
+        {
+          "id": "hd-project",
+          "label": "HD Project",
+          "installType": "standard-bin32-bio4",
+          "installTypeScope": "Re4-UHD Medieval Era Mod",
+          "detect": {
+            "hdProjectActive": true
+          }
+        },
+        {
+          "id": "non-hd",
+          "label": "Original Game (no HD Project)",
+          "default": true,
+          "combine": [
+            {
+              "installType": "standard-bin32-bio4",
+              "installTypeScope": "Re4-UHD Medieval Era Mod"
+            },
+            {
+              "namedFolderCopy": "(non hd version patch )"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 10130,
@@ -3640,11 +3675,18 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/82.jpg",
       "download": "https://www.mediafire.com/file/wqssfy69j5qs9tr/Unknown_Of_Evil_HD_Project_1.1.rar/file",
-      "installType": "standard-bin32-bio4",
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/133"
-      }
+      },
+      "combine": [
+        {
+          "installType": "standard-bin32-bio4"
+        },
+        {
+          "namedFolderCopy": "TEXA"
+        }
+      ]
     },
     {
       "id": 10134,
@@ -3894,15 +3936,23 @@
       "download": "https://www.mediafire.com/file/47tanlargxagg5v/DEATH_IS_COMING.rar/file",
       "installGuide": [
         {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "action": "delete",
+          "target": "BIO4/Etc"
+        },
+        {
+          "action": "delete",
+          "target": "BIO4/St1"
+        },
+        {
+          "action": "delete",
+          "target": "BIO4/St5"
         }
       ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/147"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10148,
@@ -3940,17 +3990,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/63.jpg",
       "download": "https://drive.google.com/file/d/1L6V3IXVKB5qKYBiYZy8sWBFDaOHqhAwy/view",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/149"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10150,
@@ -3969,15 +4013,19 @@
       "download": "https://drive.google.com/file/d/170kn5X-y0A6YSw5dLRwUJ36dccxhp1CE/view",
       "installGuide": [
         {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "action": "delete",
+          "target": "Bin32"
+        },
+        {
+          "action": "delete",
+          "target": "BIO4"
         }
       ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/150"
-      }
+      },
+      "installType": "resident-evil-folder"
     },
     {
       "id": 10151,
@@ -4021,17 +4069,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/60.jpg",
       "download": "https://www.mediafire.com/file/w90qf2dcsto8zte/RE4_UHD_ZOUHIR_IN_HELL_PORT.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/152"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10153,
@@ -4048,17 +4090,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/59.jpg",
       "download": "https://www.mediafire.com/file/ew7xijc3bn11buv/AVERAGE+REMADE+PORT+UHD.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/153"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10154,
@@ -4075,17 +4111,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/58.jpg",
       "download": "https://www.mediafire.com/file/g9ha0v82l28zr5u/No+Hope+UHD+PORT.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/154"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10155,
@@ -4102,17 +4132,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/57.jpg",
       "download": "https://www.mediafire.com/file/g30xmo5tuxbwb62/Can_You_Pass.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/155"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10156,
@@ -4129,17 +4153,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/56.jpg",
       "download": "https://www.mediafire.com/file/29ptrxdet3f64t3/Into_The_Abyss.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/156"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10157,
@@ -4158,15 +4176,19 @@
       "download": "https://www.mediafire.com/file_premium/p5nqe9l4ooce8or/Resident_Evil_4_World_S_v1.2.rar/file",
       "installGuide": [
         {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "action": "delete",
+          "target": "Bin32"
+        },
+        {
+          "action": "delete",
+          "target": "BIO4"
         }
       ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/157"
-      }
+      },
+      "installType": "resident-evil-folder"
     },
     {
       "id": 10158,
@@ -4183,17 +4205,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/54.jpg",
       "download": "https://www.mediafire.com/file/twopz46mmwrukcb/RE4-HD+Life+In+Hell+Mod.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/158"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10159,
@@ -4210,17 +4226,21 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/qYukIfj.jpeg",
       "download": "https://www.mediafire.com/file/y2fjirrqt6sayuk/Life_in_Hell_UHD_HD_Project.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/159"
-      }
+      },
+      "installType": "standard-bin32-bio4",
+      "postInstallGuide": [
+        {
+          "action": "delete",
+          "target": "Bin32/d3d9.dll"
+        },
+        {
+          "action": "delete",
+          "target": "Bin32/d3d9.ini"
+        }
+      ]
     },
     {
       "id": 10160,
@@ -4237,17 +4257,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/53.jpg",
       "download": "https://www.mediafire.com/file/74nszx2otgd722y/THE+ALFAJR+UHD.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/160"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10161,
@@ -4264,16 +4278,32 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/52.jpg",
       "download": "https://www.mediafire.com/file/1nao35it8ow8v3s/RESIDENT+EVIL+4+HD+DIFICULDADE+INTENSO.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/161"
+      },
+      "installType": "standard-bin32-bio4",
+      "selectableAddOns": {
+        "groups": [
+          {
+            "id": "extras",
+            "label": "Extras",
+            "type": "single",
+            "options": [
+              {
+                "id": "none",
+                "label": "None (Default)",
+                "default": true,
+                "noop": true
+              },
+              {
+                "id": "extra",
+                "label": "EXTRA (Alternate Hell Variant)",
+                "namedFolderCopy": "EXTRA"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -4291,17 +4321,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/51.jpg",
       "download": "https://www.mediafire.com/file/7fq2x0l23bo22bb/Los+Crackudos+in+Hell+Release+v1.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/162"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10163,
@@ -4318,17 +4342,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/50.jpg",
       "download": "https://www.mediafire.com/file/yelb3e7i2369o9v/m5aui.mod.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/163"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10164,
@@ -4345,17 +4363,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/49.jpg",
       "download": "https://www.mediafire.com/file/rgh3d59ix04zrza/strange.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/164"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10165,
@@ -4372,17 +4384,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/48.jpg",
       "download": "https://www.mediafire.com/file/enw6jl6td7zoprs/Source_Mod_Re4_UHD.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/165"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10166,
@@ -4399,17 +4405,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/47.jpg",
       "download": "https://www.mediafire.com/file/iqt8fb0y39lpqe8/REAL+Mod.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/166"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10167,
@@ -4426,17 +4426,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/45.jpg",
       "download": "https://mega.nz/file/B4hlWJxK#_cLnAz2j9TLOiE9e-8tbr3kiCQfuMK0XPd6oWadSibA",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/167"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10168,
@@ -4453,17 +4447,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/44.jpg",
       "download": "https://www.mediafire.com/file/tl9gsr1fjq0cwwh/The+Power+Of+Enemy+Full+Release.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/168"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10169,
@@ -4480,17 +4468,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/43.jpg",
       "download": "https://www.mediafire.com/file/t6ooewkmiqswydj/RE4UHD+Survive+in+Hell+Mod+Port.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/169"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10170,
@@ -4507,17 +4489,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/42.jpg",
       "download": "https://www.mediafire.com/file/tibu6yk1fc8sx1j/NO+ESCAPE+UHD+Demo.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/170"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10171,
@@ -4534,17 +4510,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/41.jpg",
       "download": "https://www.mediafire.com/file/uh8rjnih960nruv/Torment+and+death.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/171"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10172,
@@ -4561,17 +4531,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/39.jpg",
       "download": "https://www.mediafire.com/file/lph9bvfxejih1nd/Madness+Unchained+ALFA.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/172"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10173,
@@ -4590,15 +4554,19 @@
       "download": "https://www.mediafire.com/file/bla7v0tt185zqq7/RE4_Origins_Mod.rar/file",
       "installGuide": [
         {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "action": "delete",
+          "target": "Bin32"
+        },
+        {
+          "action": "delete",
+          "target": "BIO4"
         }
       ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/173"
-      }
+      },
+      "installType": "resident-evil-folder"
     },
     {
       "id": 10174,
@@ -4615,17 +4583,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/37.jpg",
       "download": "https://www.mediafire.com/file/uyxt8n0uk9lvpem/Escape+Until+Die+Mod+(+ADA+).rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/174"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10175,
@@ -4642,17 +4604,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/35.jpg",
       "download": "https://www.mediafire.com/file/8pghnamrrigepbl/JUBA+MOD.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/175"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10176,
@@ -4669,17 +4625,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/33.jpg",
       "download": "https://www.mediafire.com/file/hn0eexd5uli8g1n/RE4+Sentence+In+Hell.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/176"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10177,
@@ -4696,17 +4646,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/32.jpg",
       "download": "https://www.mediafire.com/file/wp3dhl41nm0pjme/Silent_Evil.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/177"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10178,
@@ -4723,17 +4667,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/31.jpg",
       "download": "https://www.mediafire.com/file/29vh57yn47y6tms/RE4_JUMP_SCAER_mod-easy.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/178"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10179,
@@ -4750,17 +4688,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/30.jpg",
       "download": "https://www.mediafire.com/file/nqng6dap4hvw1bh/RE4UHD+-+Peaceful+Life.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/179"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10180,
@@ -4777,17 +4709,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/29.jpg",
       "download": "https://www.mediafire.com/file/owx8mqvbwtd7ifu/Mod_Black_hell.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/180"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10181,
@@ -4804,17 +4730,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/28.jpg",
       "download": "https://www.mediafire.com/file/nwme08vvsjwwrs8/Path+Of+Danger+Mod.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/181"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10182,
@@ -4831,17 +4751,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/27.jpg",
       "download": "https://www.mediafire.com/file/ggsfkki2b0frzah/MOD+CORTEZ.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/182"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10183,
@@ -4858,17 +4772,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/26.jpg",
       "download": "https://www.mediafire.com/file/opiryhg81ylqbt0/MOD+KAIAS.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/183"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10184,
@@ -4885,17 +4793,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/25.jpg",
       "download": "https://www.mediafire.com/file/ejt6hlyahu9uxyk/Resident_Evil_4_-_Director's_Cut_(Village).rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/184"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10185,
@@ -4912,17 +4814,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/24.jpg",
       "download": "https://www.mediafire.com/file/o4yq4o8ev13x9wb/THE+SEVENTH+HELL+MOD.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/185"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10186,
@@ -4939,17 +4835,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/23.jpg",
       "download": "https://www.mediafire.com/file/acm01sdz8r74294/Resident+evil+4+Welcome+to+Hell+HD+Complete+Version.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/186"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10187,
@@ -4966,17 +4856,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/22.jpg",
       "download": "https://www.mediafire.com/file/1ffs3o2e9ukwfiv/Welcome_To_+62_MOD.zip/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/187"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10188,
@@ -4993,17 +4877,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/21.jpg",
       "download": "https://www.mediafire.com/file/q7fy81f39etwpnz/The_Dimension_UnderWorld.7z/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/188"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10189,
@@ -5020,17 +4898,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/20.jpg",
       "download": "https://drive.google.com/file/d/1EjRXfc-16qryW9R8853BbCqtr3l_HXot/view",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/189"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10190,
@@ -5047,17 +4919,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/19.jpg",
       "download": "https://mega.nz/file/w5BCVATL#CLypfauxdnoqG4FK6zickyLn-5cp6NG4L-Sonrhervs",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/190"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10191,
@@ -5074,17 +4940,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/18.jpg",
       "download": "https://www.mediafire.com/file/zdnahgm4o4yqwpk/CHOAS_INFERNAL_UHD_PORT.zip/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/191"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10192,
@@ -5101,17 +4961,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/17.jpg",
       "download": "https://www.mediafire.com/file/a9535ziy18mmdlv/Ultra_Pro_UHD_Sachiel_TDR.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/192"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10193,
@@ -5128,17 +4982,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/16.jpg",
       "download": "https://www.mediafire.com/file/fwy5offq755844g/Decimation+Of+The+Damned.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/193"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10194,
@@ -5155,17 +5003,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/15.jpg",
       "download": "https://www.mediafire.com/file/i3wcozuzsh0s2l8/SUFFERING_IN_HELL_UHD.zip/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/194"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10195,
@@ -5182,17 +5024,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/14.jpg",
       "download": "https://www.mediafire.com/file/1d0yg7wrg8yec6d/DARK+IN+MADNESS.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/195"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10196,
@@ -5209,17 +5045,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/12.jpg",
       "download": "https://www.mediafire.com/file/49zatguxm9ir5dx/RE4+UHD+MOD+Forbidden+Completo.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/196"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10197,
@@ -5236,17 +5066,11 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/10.jpg",
       "download": "https://www.mediafire.com/file/hwjqexw4s2mjxye/Mod_The_Wonders.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/197"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10198,
@@ -5265,15 +5089,15 @@
       "download": "https://www.mediafire.com/file/b5hs4ofaq55bd7c/FHODTSHE+MOD.rar/file",
       "installGuide": [
         {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "action": "delete",
+          "target": "BIO4/St3"
         }
       ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/198"
-      }
+      },
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10203,
@@ -5290,17 +5114,11 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/aNKvA4r.jpeg",
       "download": "https://www.mediafire.com/file/hnu434ld1s48hon/RE4UHD_Rising_of_Evil_-_Definitive_Edition.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/203"
-      }
+      },
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10019,
@@ -5827,18 +5645,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/15fzBnV.jpeg",
       "download": "https://www.mediafire.com/file/lgo7yivvwpxtaku/RE4+HD+Piece+Of+Cake.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/199"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "skin-bio4-folder"
     },
     {
       "id": 10200,
@@ -5855,18 +5667,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/craTCEq.jpeg",
       "download": "https://www.mediafire.com/file/rvrjdhozmtsnhqt/Piece+of+Cake+UHD+HD+Project.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/200"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10201,
@@ -5883,18 +5689,12 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/7.jpg",
       "download": "https://drive.google.com/file/d/1HedKr0gclx1snWnTxMpU6iiP7ae48Fcs/view",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/201"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10202,
@@ -5939,18 +5739,12 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/5.jpg",
       "download": "https://www.mediafire.com/file/g4mbwi1bb7zmjx5/RE4-HD_Rising_Of_Evil_3.1.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/204"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10205,
@@ -5967,18 +5761,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/crPpWTH.jpeg",
       "download": "https://www.mediafire.com/file/bt4sfdoar29sz0x/Rising_of_Evil_HD_Patch.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/205"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10206,
@@ -5995,18 +5783,12 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/4.jpg",
       "download": "https://www.mediafire.com/file/w62g0v9wsl1l8vi/PRISON_OF_THE_EVIL.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/206"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "bin32-bio4-files"
     },
     {
       "id": 10207,
@@ -6023,18 +5805,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/93ziNUm.jpeg",
       "download": "https://www.mediafire.com/file/ta2takypgfte4y6/Prepare+to+Die+UHD+Lower+Version+(Original).rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/207"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10208,
@@ -6051,18 +5827,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/fZ4c4dF.jpeg",
       "download": "https://www.mediafire.com/file/dmu5rc62ccfan3g/Prepare+to+Die+UHD+Higher+Version+(HD+Project+1.1).rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/208"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10209,
@@ -6107,18 +5877,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/i9t4NUj.jpeg",
       "download": "https://www.mediafire.com/file/sytgxent9o9nwjp/ARRANGE_RE4_HD-NORMAL_EARLY_GIFT.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/210"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10211,
@@ -6187,18 +5951,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/e1GsrxU.jpeg",
       "download": "https://www.mediafire.com/file/p3duj8d873d4e41/2X-DIE+MODE+%28+HD+1.1+By+Abotsleem+19+%29.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/10213"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10215,
@@ -6287,18 +6045,12 @@
       "category": "storyMods",
       "image": "https://i.imgur.com/kAxjsmt.jpeg",
       "download": "https://www.mediafire.com/file/9wpdnl208ajve65/The+sin+mod++hd+project+.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
       "communityRating": {
         "enabled": true,
         "source": "https://hevilzplatform.com/mod/10219"
       },
-      "_needsReview": true
+      "_needsReview": true,
+      "installType": "standard-bin32-bio4"
     }
   ]
 }
