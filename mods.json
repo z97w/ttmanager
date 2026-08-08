@@ -6051,6 +6051,32 @@
       },
       "_needsReview": true,
       "installType": "standard-bin32-bio4"
+    },
+    {
+      "name": "LEON EVIL SKIN 2",
+      "author": "LEON EVIL",
+      "about": "BY LEON EVIL",
+      "source": "https://hevilzplatform.com/mod/10221",
+      "image": "https://i.imgur.com/Qyccy72.jpeg",
+      "download": "https://www.mediafire.com/file/o524ubcghj1o22o/LEON+EVIL+SKIN+2.rar/file",
+      "category": "skins",
+      "platformSupport": "original",
+      "published": true,
+      "localOnly": false,
+      "communityRating": {
+        "enabled": false,
+        "source": null
+      },
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "BIO4",
+          "to": "BIO4/"
+        }
+      ],
+      "character": "leon",
+      "skinType": "noJacket",
+      "id": 10220
     }
   ]
 }
