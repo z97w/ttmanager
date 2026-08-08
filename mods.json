@@ -2241,19 +2241,23 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10078,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/78",
       "name": "Dark Pack",
       "author": "Hevilz",
-      "about": "A dark-themed weapon overhaul pack for Resident Evil 4. Released in two versions: one built for the HD Project and one for the Original Game. Original Game download: https://www.mediafire.com/file/zph3y7aoxur6yt8/Dark+Pack+Mod+(+Normal+).rar/file",
+      "about": "HD Project dark-themed overhaul pack.",
+      "source": "https://hevilzplatform.com/mod/78",
+      "image": "https://i.ytimg.com/vi/EgIeHOG6rQg/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/w1x6e95swhe267n/Dark+Pack+Mod+(+HD+Project+)+By+Hevilz.rar/file",
       "category": [
         "weapons",
         "byHevilz"
       ],
-      "image": "https://i.ytimg.com/vi/EgIeHOG6rQg/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/w1x6e95swhe267n/Dark+Pack+Mod+(+HD+Project+)+By+Hevilz.rar/file",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "communityRating": {
+        "enabled": true,
+        "source": "https://hevilzplatform.com/mod/78"
+      },
       "installGuide": [
         {
           "action": "copy",
@@ -2261,12 +2265,7 @@
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
       ],
-      "communityRating": {
-        "enabled": true,
-        "source": "https://hevilzplatform.com/mod/78"
-      },
-      "platformSupport": "both",
-      "_needsReview": true
+      "id": 10078
     },
     {
       "id": 10079,
