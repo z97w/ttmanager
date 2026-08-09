@@ -4027,31 +4027,40 @@
       "installType": "resident-evil-folder"
     },
     {
-      "id": 10151,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/151",
       "name": "EXTREME CONDITION MOD | مود البرازيلي",
       "author": "LuisWebber (ported by ZORO333)",
       "about": "By LuisWebber. Easy difficulty full overhaul mod.",
-      "modLength": "medium",
-      "platformSupport": "both",
-      "lootDensity": "abundant",
-      "difficulty": "Easy",
-      "category": "storyMods",
+      "source": "https://hevilzplatform.com/mod/151",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/61.jpg",
-      "download": "https://mega.nz/file/Qk4k1KgB#udRXVVvaRik-LfFqoek10AoT185tY1AzOzLg5EhCEcU",
+      "download": "https://www.mediafire.com/file/9yzskhnjodw8bgs/Extreme+Condition+%D9%85%D9%88%D8%AF+%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A+FIXED+PORT.rar/file",
+      "category": "storyMods",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "communityRating": {
+        "enabled": false,
+        "source": null
+      },
       "installGuide": [
         {
+          "action": "select",
+          "folder": "على اللعبة الاصلية"
+        },
+        {
           "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "from": "Bin32",
+          "to": "Bin32/"
+        },
+        {
+          "action": "copy",
+          "from": "BIO4",
+          "to": "BIO4/"
         }
       ],
-      "communityRating": {
-        "enabled": true,
-        "source": "https://hevilzplatform.com/mod/151"
-      }
+      "modLength": "medium",
+      "lootDensity": "abundant",
+      "difficulty": "Easy",
+      "id": 10151
     },
     {
       "id": 10152,
