@@ -4242,25 +4242,36 @@
       ]
     },
     {
-      "id": 10160,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/160",
       "name": "Alfajr",
       "author": "Z.H.R-RE4 (Porter: Paullinho Oliveira)",
       "about": "By Z.H.R-RE4. Hard difficulty full overhaul mod.",
-      "modLength": "medium",
-      "platformSupport": "hd",
-      "lootDensity": "medium",
-      "difficulty": "Hard",
-      "category": "storyMods",
+      "source": "https://hevilzplatform.com/mod/160",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/53.jpg",
       "download": "https://www.mediafire.com/file/74nszx2otgd722y/THE+ALFAJR+UHD.rar/file",
+      "category": "storyMods",
+      "platformSupport": "hd",
+      "published": true,
+      "localOnly": false,
       "communityRating": {
-        "enabled": true,
-        "source": "https://hevilzplatform.com/mod/160"
+        "enabled": false,
+        "source": null
       },
-      "installType": "standard-bin32-bio4"
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "BIO4",
+          "to": "Resident evil 4"
+        },
+        {
+          "action": "copy",
+          "from": "Bin32",
+          "to": "Resident evil 4"
+        }
+      ],
+      "modLength": "medium",
+      "lootDensity": "medium",
+      "difficulty": "Hard",
+      "id": 10160
     },
     {
       "id": 10161,
