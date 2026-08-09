@@ -6089,6 +6089,38 @@
       "character": "leon",
       "skinType": "noJacket",
       "id": 10220
+    },
+    {
+      "name": "The Vial Blood",
+      "author": "Dark Knight",
+      "about": "Author: Dark Knight. A community-contributed modification for the Hevilz archive.",
+      "source": "https://hevilzplatform.com/mod/10224",
+      "image": "https://i.imgur.com/87k2acc.jpeg",
+      "download": "https://www.mediafire.com/file/h247rstj7w8h069/Resident+Evil+4+The+Vial+Blood+By+Dark+Knight.rar/file",
+      "category": "storyMods",
+      "platformSupport": "hd",
+      "published": true,
+      "localOnly": false,
+      "communityRating": {
+        "enabled": false,
+        "source": null
+      },
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "Bin32",
+          "to": "Bin32"
+        },
+        {
+          "action": "copy",
+          "from": "BIO4",
+          "to": "BIO4"
+        }
+      ],
+      "modLength": "short",
+      "lootDensity": "medium",
+      "difficulty": "Medium",
+      "id": 10221
     }
   ]
 }
