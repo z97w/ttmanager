@@ -5969,28 +5969,30 @@
       "installType": "standard-bin32-bio4"
     },
     {
-      "id": 10215,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10215",
       "name": "BIG SMOKE SKIN",
       "author": "kaiyo",
       "about": "By Kaiyo & Malek",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10215",
       "image": "https://i.imgur.com/0hxfyAh.jpeg",
       "download": "https://www.mediafire.com/file/urc8k1jchey2e2z/Big+Smoke+Skin+By+Kaiyo+%26+Malek.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "communityRating": {
+        "enabled": false,
+        "source": null
+      },
       "installGuide": [
         {
           "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "from": "BIO4",
+          "to": "BIO4/"
         }
       ],
-      "communityRating": {
-        "enabled": true,
-        "source": "https://hevilzplatform.com/mod/10215"
-      },
-      "_needsReview": true
+      "character": "leon",
+      "skinType": "noJacket",
+      "id": 10215
     },
     {
       "id": 10216,
