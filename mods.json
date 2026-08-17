@@ -4664,17 +4664,21 @@
       "id": 10215
     },
     {
-      "id": 10216,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10216",
       "name": "M5aui SKIN",
       "author": "m5aui",
       "about": "By M5AUI",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10216",
       "image": "https://i.imgur.com/cXNBau5.jpeg",
       "download": "https://www.mediafire.com/file/99wzd48dh7p4gfe/m5aui+Skin.rar/file",
-      "installType": "skin-bio4-folder"
+      "category": "skins",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "installType": "skin-bio4-folder",
+      "installGuide": [],
+      "character": "leon",
+      "skinType": "noJacket",
+      "id": 10216
     },
     {
       "id": 10218,
