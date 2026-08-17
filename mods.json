@@ -6118,12 +6118,12 @@
         {
           "action": "copy",
           "from": "Bin32",
-          "to": "Bin32"
+          "to": "Game folder"
         },
         {
           "action": "copy",
           "from": "BIO4",
-          "to": "BIO4"
+          "to": "Game folder"
         }
       ],
       "modLength": "short",
