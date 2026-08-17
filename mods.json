@@ -4770,6 +4770,24 @@
       "lootDensity": "medium",
       "difficulty": "Medium",
       "id": 10221
+    },
+    {
+      "name": "Vermilion Vortex Mod",
+      "author": "Ulquien",
+      "about": "Author: Ulquien. A community-contributed modification for the Hevilz archive.",
+      "source": "https://hevilzplatform.com/mod/10225",
+      "image": "https://i.imgur.com/zSGsIab.jpeg",
+      "download": "https://www.mediafire.com/file/5mt9qr1baep508a/Vermilion+Vortex.rar/file",
+      "category": "storyMods",
+      "platformSupport": "original",
+      "published": true,
+      "localOnly": false,
+      "installType": "standard-bin32-bio4",
+      "installGuide": [],
+      "modLength": "short",
+      "lootDensity": "abundant",
+      "difficulty": "Hard",
+      "id": 10222
     }
   ]
 }
