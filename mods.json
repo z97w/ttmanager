@@ -4688,17 +4688,21 @@
       "id": 10216
     },
     {
-      "id": 10218,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10218",
       "name": "REimaginatorr SKIN",
       "author": "REimaginatorr",
       "about": "By REimaginatorr",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10218",
       "image": "https://i.imgur.com/x7hemLd.jpeg",
       "download": "https://www.mediafire.com/file/o6tozgpsyfwi2vw/REimaginatorr+Skin.rar/file",
-      "installType": "skin-bio4-folder"
+      "category": "skins",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "installType": "skin-bio4-folder",
+      "installGuide": [],
+      "character": "leon",
+      "skinType": "noJacket",
+      "id": 10218
     },
     {
       "id": 10219,
