@@ -4615,17 +4615,21 @@
       ]
     },
     {
-      "id": 10212,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10212",
       "name": "RYOMEN SKIN",
       "author": "RYOMEN",
       "about": "By RYOMEN",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10212",
       "image": "https://i.imgur.com/dN2ILhB.jpeg",
       "download": "https://www.mediafire.com/file/towhxfiixxsi6rb/Ryomen+sukuna+skin+made+by+Ryomen.rar/file",
-      "installType": "skin-bio4-folder"
+      "category": "skins",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "installType": "skin-bio4-folder",
+      "installGuide": [],
+      "character": "leon",
+      "skinType": "noJacket",
+      "id": 10212
     },
     {
       "id": 10213,
