@@ -4316,18 +4316,21 @@
       "installType": "skin-bio4-folder"
     },
     {
-      "id": 10032,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/32",
       "name": "Winchester Skin 2",
       "author": "Winchester",
       "about": "By Winchester",
-      "category": "skins",
-      "character": "leon",
+      "source": "https://hevilzplatform.com/mod/32",
       "image": "https://i.imgur.com/q8Ii8jj.jpeg",
       "download": "https://www.mediafire.com/file_premium/4mvsjew4fjf16r3/MESTIRI_10_SKIN.rar/file",
-      "installType": "skin-bio4-folder"
+      "category": "skins",
+      "platformSupport": "both",
+      "published": true,
+      "localOnly": false,
+      "installType": "skin-bio4-folder",
+      "installGuide": [],
+      "character": "leon",
+      "skinType": "noJacket",
+      "id": 10032
     },
     {
       "id": 10033,
