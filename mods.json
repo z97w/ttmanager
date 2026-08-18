@@ -1986,146 +1986,146 @@
         {
           "action": "copy",
           "from": "30000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "30000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/30000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "27000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "27000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/27000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "3e000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "3e000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/3e000001.pack"
         },
         {
           "action": "copy",
           "from": "3a000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "3a000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/3a000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "3c000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "3c000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/3c000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "33000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "33000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/33000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "35000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "35000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/35000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "37000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "37000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/37000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "39000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "39000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/39000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "1c000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "1c000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/1c000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "2a000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "2a000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/2a000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "2b000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "2b000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/2b000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "2f000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "2f000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/2f000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "07000000.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "07000000.pack.lfs"
+          "target": "BIO4/ImagePackHD/07000000.pack.lfs"
         },
         {
           "action": "copy",
           "from": "31000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "31000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/31000001.pack.lfs"
         },
         {
           "action": "copy",
           "from": "32000001.pack",
-          "to": "ImagePackHD"
+          "to": "BIO4/ImagePackHD"
         },
         {
           "action": "delete",
-          "target": "32000001.pack.lfs"
+          "target": "BIO4/ImagePackHD/32000001.pack.lfs"
         }
       ],
       "id": 10089
