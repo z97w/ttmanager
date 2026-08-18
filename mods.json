@@ -797,7 +797,7 @@
     },
     {
       "id": 10009,
-      "published": true,
+      "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/9",
       "name": "Real Weapons",
