@@ -3002,28 +3002,38 @@
       ]
     },
     {
-      "id": 10133,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/133",
       "name": "Unknown of Evil",
       "author": "Tex",
       "about": "By 0000.TEX. Very Hard difficulty full overhaul mod.",
-      "modLength": "short",
-      "platformSupport": "hd",
-      "lootDensity": "medium",
-      "difficulty": "Very Hard",
-      "category": "storyMods",
+      "source": "https://hevilzplatform.com/mod/133",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/82.jpg",
       "download": "https://www.mediafire.com/file/wqssfy69j5qs9tr/Unknown_Of_Evil_HD_Project_1.1.rar/file",
-      "combine": [
+      "category": "storyMods",
+      "platformSupport": "hd",
+      "published": false,
+      "localOnly": false,
+      "installType": null,
+      "installGuide": [
         {
-          "installType": "standard-bin32-bio4"
+          "action": "copy",
+          "from": "BIO4",
+          "to": "re4"
         },
         {
-          "namedFolderCopy": "TEXA"
+          "action": "copy",
+          "from": "Bin32",
+          "to": "re4"
+        },
+        {
+          "action": "copy",
+          "from": "TEXA",
+          "to": "re4"
         }
-      ]
+      ],
+      "modLength": "short",
+      "lootDensity": "medium",
+      "difficulty": "Very Hard",
+      "id": 10133
     },
     {
       "id": 10134,
