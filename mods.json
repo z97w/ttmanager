@@ -2008,7 +2008,7 @@
         },
         {
           "action": "delete",
-          "target": "BIO4/ImagePackHD/3e000001.pack"
+          "target": "BIO4/ImagePackHD/3e000001.pack.lfs"
         },
         {
           "action": "copy",
