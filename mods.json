@@ -1969,26 +1969,166 @@
       "platformSupport": "hd"
     },
     {
-      "id": 10089,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/89",
       "name": "Arabic Version",
       "author": "Hevilz",
       "about": "A full Arabic language translation patch for Resident Evil 4 (version 2).",
+      "source": "https://hevilzplatform.com/mod/89",
+      "image": "https://i.ytimg.com/vi/VePLfKRSzKw/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/rzxyw94bmb6evkb/Arabic+Version+Mod+v2+By+Hevilz.rar/file",
       "category": [
         "others",
         "byHevilz"
       ],
-      "image": "https://i.ytimg.com/vi/VePLfKRSzKw/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/rzxyw94bmb6evkb/Arabic+Version+Mod+v2+By+Hevilz.rar/file",
+      "published": true,
+      "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "copy",
-          "from": "imagepackhd",
-          "to": "BIO4/imagepackhd"
+          "from": "30000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "30000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "27000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "27000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "3e000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "3e000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "3a000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "3a000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "3c000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "3c000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "33000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "33000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "35000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "35000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "37000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "37000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "39000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "39000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "1c000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "1c000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "2a000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "2a000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "2b000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "2b000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "2f000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "2f000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "07000000.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "07000000.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "31000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "31000001.pack.lfs"
+        },
+        {
+          "action": "copy",
+          "from": "32000001.pack",
+          "to": "ImagePackHD"
+        },
+        {
+          "action": "delete",
+          "target": "32000001.pack.lfs"
         }
-      ]
+      ],
+      "id": 10089
     },
     {
       "id": 10090,
