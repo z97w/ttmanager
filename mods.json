@@ -2295,74 +2295,57 @@
         }
       ]
     },
-    {
-      "id": 10098,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/98",
-      "name": "Ammo Stacking",
-      "author": "ZORO333",
-      "about": "Combines ammo types into stacked inventory slots for streamlined inventory management.",
-      "category": "others",
-      "image": "https://i.imgur.com/F7Jkob7.jpeg",
-      "download": "https://www.mediafire.com/file/zmg9tlzthozh1f1/Ammo+Stacking.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "999x/bio4.exe",
-          "to": "Bin32/bio4.exe"
-        }
-      ],
-      "selectableVariants": {
-        "label": "اختر كمية تكديس الذخيرة / Choose ammo stack amount",
-        "options": [
-          {
-            "id": "999x",
-            "label": "999x",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "999x/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          },
-          {
-            "id": "4x",
-            "label": "4x",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "4x/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          },
-          {
-            "id": "3x",
-            "label": "3x",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "3x/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          },
-          {
-            "id": "2x",
-            "label": "2x",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "2x/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          }
-        ]
-      }
-    },
+       "download": "https://www.mediafire.com/file/zmg9tlzthozh1f1/Ammo+Stacking.rar/file",
+       "selectableVariants": {
+         "label": "اختر كمية تكديس الذخيرة / Choose ammo stack amount",
+         "options": [
+           {
+             "id": "999x",
+             "label": "999x",
+             "installGuide": [
+               {
+                 "action": "copy",
+                "from": "Ammo Stacking/Ammo Stacking/999/bio4.exe",
+                 "to": "Bin32/bio4.exe"
+               }
+             ]
+           },
+           {
+             "id": "4x",
+             "label": "4x",
+             "installGuide": [
+               {
+                 "action": "copy",
+                "from": "Ammo Stacking/Ammo Stacking/x4/bio4.exe",
+                 "to": "Bin32/bio4.exe"
+               }
+             ]
+           },
+           {
+             "id": "3x",
+             "label": "3x",
+             "installGuide": [
+               {
+                 "action": "copy",
+                "from": "Ammo Stacking/Ammo Stacking/x3/bio4.exe",
+                 "to": "Bin32/bio4.exe"
+               }
+             ]
+           },
+           {
+             "id": "2x",
+             "label": "2x",
+             "installGuide": [
+               {
+                 "action": "copy",
+                "from": "Ammo Stacking/Ammo Stacking/x2/bio4.exe",
+                 "to": "Bin32/bio4.exe"
+               }
+             ]
+           }
+         ]
+       }
+     },
     {
       "id": 10099,
       "published": true,
