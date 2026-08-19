@@ -25,7 +25,7 @@
     },
     {
       "id": 10002,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/2",
       "name": "Remodel All Weapons",
@@ -797,7 +797,7 @@
     },
     {
       "id": 10009,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/9",
       "name": "Real Weapons",
@@ -819,7 +819,7 @@
     },
     {
       "id": 10010,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10",
       "name": "Rended Pack",
@@ -841,7 +841,7 @@
     },
     {
       "id": 10011,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/11",
       "name": "The Last Phase",
@@ -1696,7 +1696,7 @@
         "byHevilz"
       ],
       "platformSupport": "both",
-      "published": false,
+      "published": true,
       "localOnly": false,
       "installGuide": [
         {
@@ -1709,7 +1709,7 @@
     },
     {
       "id": 10079,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/79",
       "name": "Golden Rose Pack",
@@ -1925,7 +1925,7 @@
     },
     {
       "id": 10087,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/87",
       "name": "Dining Room Recolor",
@@ -1947,7 +1947,7 @@
     },
     {
       "id": 10088,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/88",
       "name": "Magic Book",
@@ -1969,166 +1969,26 @@
       "platformSupport": "hd"
     },
     {
+      "id": 10089,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/89",
       "name": "Arabic Version",
       "author": "Hevilz",
       "about": "A full Arabic language translation patch for Resident Evil 4 (version 2).",
-      "source": "https://hevilzplatform.com/mod/89",
-      "image": "https://i.ytimg.com/vi/VePLfKRSzKw/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/rzxyw94bmb6evkb/Arabic+Version+Mod+v2+By+Hevilz.rar/file",
       "category": [
         "others",
         "byHevilz"
       ],
-      "published": true,
-      "localOnly": false,
-      "installType": null,
+      "image": "https://i.ytimg.com/vi/VePLfKRSzKw/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/rzxyw94bmb6evkb/Arabic+Version+Mod+v2+By+Hevilz.rar/file",
       "installGuide": [
         {
           "action": "copy",
-          "from": "30000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/30000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "27000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/27000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "3e000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/3e000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "3a000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/3a000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "3c000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/3c000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "33000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/33000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "35000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/35000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "37000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/37000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "39000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/39000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "1c000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/1c000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "2a000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/2a000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "2b000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/2b000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "2f000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/2f000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "07000000.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/07000000.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "31000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/31000001.pack.lfs"
-        },
-        {
-          "action": "copy",
-          "from": "32000001.pack",
-          "to": "BIO4/ImagePackHD"
-        },
-        {
-          "action": "delete",
-          "target": "BIO4/ImagePackHD/32000001.pack.lfs"
+          "from": "imagepackhd",
+          "to": "BIO4/imagepackhd"
         }
-      ],
-      "id": 10089
+      ]
     },
     {
       "id": 10090,
@@ -2236,7 +2096,7 @@
     },
     {
       "id": 10095,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/95",
       "name": "HD Project",
@@ -2256,7 +2116,7 @@
     },
     {
       "id": 10096,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/96",
       "name": "RE4Tweaks",
@@ -2295,57 +2155,67 @@
         }
       ]
     },
-       "download": "https://www.mediafire.com/file/zmg9tlzthozh1f1/Ammo+Stacking.rar/file",
-       "selectableVariants": {
-         "label": "اختر كمية تكديس الذخيرة / Choose ammo stack amount",
-         "options": [
-           {
-             "id": "999x",
-             "label": "999x",
-             "installGuide": [
-               {
-                 "action": "copy",
+    {
+      "id": 10098,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/98",
+      "name": "Ammo Stacking",
+      "author": "ZORO333",
+      "about": "Combines ammo types into stacked inventory slots for streamlined inventory management.",
+      "category": "others",
+      "image": "https://i.imgur.com/F7Jkob7.jpeg",
+      "download": "https://www.mediafire.com/file/zmg9tlzthozh1f1/Ammo+Stacking.rar/file",
+      "selectableVariants": {
+        "label": "اختر كمية تكديس الذخيرة / Choose ammo stack amount",
+        "options": [
+          {
+            "id": "999",
+            "label": "999",
+            "installGuide": [
+              {
+                "action": "copy",
                 "from": "Ammo Stacking/Ammo Stacking/999/bio4.exe",
-                 "to": "Bin32/bio4.exe"
-               }
-             ]
-           },
-           {
-             "id": "4x",
-             "label": "4x",
-             "installGuide": [
-               {
-                 "action": "copy",
-                "from": "Ammo Stacking/Ammo Stacking/x4/bio4.exe",
-                 "to": "Bin32/bio4.exe"
-               }
-             ]
-           },
-           {
-             "id": "3x",
-             "label": "3x",
-             "installGuide": [
-               {
-                 "action": "copy",
-                "from": "Ammo Stacking/Ammo Stacking/x3/bio4.exe",
-                 "to": "Bin32/bio4.exe"
-               }
-             ]
-           },
-           {
-             "id": "2x",
-             "label": "2x",
-             "installGuide": [
-               {
-                 "action": "copy",
+                "to": "Bin32/bio4.exe"
+              }
+            ]
+          },
+          {
+            "id": "x2",
+            "label": "x2",
+            "installGuide": [
+              {
+                "action": "copy",
                 "from": "Ammo Stacking/Ammo Stacking/x2/bio4.exe",
-                 "to": "Bin32/bio4.exe"
-               }
-             ]
-           }
-         ]
-       }
-     },
+                "to": "Bin32/bio4.exe"
+              }
+            ]
+          },
+          {
+            "id": "x3",
+            "label": "x3",
+            "installGuide": [
+              {
+                "action": "copy",
+                "from": "Ammo Stacking/Ammo Stacking/x3/bio4.exe",
+                "to": "Bin32/bio4.exe"
+              }
+            ]
+          },
+          {
+            "id": "x4",
+            "label": "x4",
+            "installGuide": [
+              {
+                "action": "copy",
+                "from": "Ammo Stacking/Ammo Stacking/x4/bio4.exe",
+                "to": "Bin32/bio4.exe"
+              }
+            ]
+          }
+        ]
+      }
+    },
     {
       "id": 10099,
       "published": true,
@@ -2700,7 +2570,7 @@
     },
     {
       "id": 10118,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/118",
       "name": "Castle Trap",
@@ -2885,7 +2755,7 @@
     },
     {
       "id": 10129,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/129",
       "name": "Medieval Era",
@@ -2985,38 +2855,28 @@
       ]
     },
     {
+      "id": 10133,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/133",
       "name": "Unknown of Evil",
       "author": "Tex",
       "about": "By 0000.TEX. Very Hard difficulty full overhaul mod.",
-      "source": "https://hevilzplatform.com/mod/133",
-      "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/82.jpg",
-      "download": "https://www.mediafire.com/file/wqssfy69j5qs9tr/Unknown_Of_Evil_HD_Project_1.1.rar/file",
-      "category": "storyMods",
-      "platformSupport": "hd",
-      "published": true,
-      "localOnly": false,
-      "installType": null,
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "BIO4",
-          "to": "re4"
-        },
-        {
-          "action": "copy",
-          "from": "Bin32",
-          "to": "re4"
-        },
-        {
-          "action": "copy",
-          "from": "TEXA",
-          "to": "re4"
-        }
-      ],
       "modLength": "short",
+      "platformSupport": "hd",
       "lootDensity": "medium",
       "difficulty": "Very Hard",
-      "id": 10133
+      "category": "storyMods",
+      "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/82.jpg",
+      "download": "https://www.mediafire.com/file/wqssfy69j5qs9tr/Unknown_Of_Evil_HD_Project_1.1.rar/file",
+      "combine": [
+        {
+          "installType": "standard-bin32-bio4"
+        },
+        {
+          "namedFolderCopy": "TEXA"
+        }
+      ]
     },
     {
       "id": 10134,
@@ -4449,21 +4309,18 @@
       "installType": "skin-bio4-folder"
     },
     {
+      "id": 10032,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/32",
       "name": "Winchester Skin 2",
       "author": "Winchester",
       "about": "By Winchester",
-      "source": "https://hevilzplatform.com/mod/32",
+      "category": "skins",
+      "character": "leon",
       "image": "https://i.imgur.com/q8Ii8jj.jpeg",
       "download": "https://www.mediafire.com/file_premium/4mvsjew4fjf16r3/MESTIRI_10_SKIN.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
-      "installType": "skin-bio4-folder",
-      "installGuide": [],
-      "character": "leon",
-      "skinType": "noJacket",
-      "id": 10032
+      "installType": "skin-bio4-folder"
     },
     {
       "id": 10033,
@@ -4578,7 +4435,7 @@
     },
     {
       "id": 10202,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/202",
       "name": "Randomizer (Items - Enemies)",
@@ -4726,7 +4583,7 @@
     },
     {
       "id": 10211,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/211",
       "name": "Arrange HD Project",
@@ -4748,21 +4605,17 @@
       ]
     },
     {
+      "id": 10212,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10212",
       "name": "RYOMEN SKIN",
       "author": "RYOMEN",
       "about": "By RYOMEN",
-      "source": "https://hevilzplatform.com/mod/10212",
+      "category": "skins",
       "image": "https://i.imgur.com/dN2ILhB.jpeg",
       "download": "https://www.mediafire.com/file/towhxfiixxsi6rb/Ryomen+sukuna+skin+made+by+Ryomen.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
-      "installType": "skin-bio4-folder",
-      "installGuide": [],
-      "character": "leon",
-      "skinType": "noJacket",
-      "id": 10212
+      "installType": "skin-bio4-folder"
     },
     {
       "id": 10213,
@@ -4804,38 +4657,30 @@
       "id": 10215
     },
     {
+      "id": 10216,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10216",
       "name": "M5aui SKIN",
       "author": "m5aui",
       "about": "By M5AUI",
-      "source": "https://hevilzplatform.com/mod/10216",
+      "category": "skins",
       "image": "https://i.imgur.com/cXNBau5.jpeg",
       "download": "https://www.mediafire.com/file/99wzd48dh7p4gfe/m5aui+Skin.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
-      "installType": "skin-bio4-folder",
-      "installGuide": [],
-      "character": "leon",
-      "skinType": "noJacket",
-      "id": 10216
+      "installType": "skin-bio4-folder"
     },
     {
+      "id": 10218,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10218",
       "name": "REimaginatorr SKIN",
       "author": "REimaginatorr",
       "about": "By REimaginatorr",
-      "source": "https://hevilzplatform.com/mod/10218",
+      "category": "skins",
       "image": "https://i.imgur.com/x7hemLd.jpeg",
       "download": "https://www.mediafire.com/file/o6tozgpsyfwi2vw/REimaginatorr+Skin.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
-      "installType": "skin-bio4-folder",
-      "installGuide": [],
-      "character": "leon",
-      "skinType": "noJacket",
-      "id": 10218
+      "installType": "skin-bio4-folder"
     },
     {
       "id": 10219,
@@ -4905,22 +4750,17 @@
       "id": 10221
     },
     {
-      "name": "Vermilion Vortex Mod",
-      "author": "Ulquien",
-      "about": "Author: Ulquien. A community-contributed modification for the Hevilz archive.",
-      "source": "https://hevilzplatform.com/mod/10225",
-      "image": "https://i.imgur.com/zSGsIab.jpeg",
-      "download": "https://www.mediafire.com/file/5mt9qr1baep508a/Vermilion+Vortex.rar/file",
-      "category": "storyMods",
-      "platformSupport": "original",
-      "published": true,
+      "id": 10222,
+      "published": false,
       "localOnly": false,
-      "installType": "standard-bin32-bio4",
-      "installGuide": [],
-      "modLength": "short",
-      "lootDensity": "abundant",
-      "difficulty": "Hard",
-      "id": 10222
+      "source": "***FILL_IN_SOURCE_URL***",
+      "name": "Suffering In Hell",
+      "author": "Unknown",
+      "about": "Listed in the mod installation guide (entry #88) but not yet present in this database with confirmed source/download details.",
+      "category": "storyMods",
+      "image": "***FILL_IN_IMAGE_URL***",
+      "download": "***FILL_IN_DOWNLOAD_URL***",
+      "installType": "standard-bin32-bio4"
     }
   ]
 }
