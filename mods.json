@@ -1444,10 +1444,14 @@
       "source": "https://hevilzplatform.com/mod/62",
       "image": "https://i.imgur.com/TvaHHab.jpeg",
       "download": "https://www.mediafire.com/file_premium/tw2u8211wx6lg7i/_5EJ_SKIN.rar/file",
-      "category": "skins",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
       "platformSupport": "both",
       "published": true,
       "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "copy",
