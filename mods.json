@@ -1777,7 +1777,8 @@
         }
       ],
       "character": "leon",
-      "skinType": "noJacket"
+      "skinType": "noJacket",
+      "flagged": true
     },
     {
       "id": 10063,
