@@ -1778,8 +1778,8 @@
       ],
       "character": "leon",
       "skinType": "noJacket",
-      "flagged": false,
-      "hidden": true
+      "flagged": true,
+      "hidden": false
     },
     {
       "id": 10063,
