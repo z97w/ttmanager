@@ -3,7 +3,7 @@
   "mods": [
     {
       "id": 10001,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/1",
       "name": "Ultimate Weapons Retexture",
@@ -25,7 +25,7 @@
     },
     {
       "id": 10002,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/2",
       "name": "Remodel All Weapons",
@@ -797,7 +797,7 @@
     },
     {
       "id": 10009,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/9",
       "name": "Real Weapons",
@@ -819,7 +819,7 @@
     },
     {
       "id": 10010,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10",
       "name": "Rended Pack",
@@ -841,7 +841,7 @@
     },
     {
       "id": 10011,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/11",
       "name": "The Last Phase",
@@ -875,9 +875,9 @@
       ],
       "image": "https://i.imgur.com/DdMqbG0.jpeg",
       "download": "https://www.mediafire.com/file/j6lsrwp727i03ys/WESKER+COAT+SKIN.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "leon",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
+      "skinType": "jacket"
     },
     {
       "id": 10013,
@@ -893,9 +893,9 @@
       ],
       "image": "https://i.imgur.com/yh9ZX6m.jpeg",
       "download": "https://www.mediafire.com/file_premium/24gb686zqv8dted/Luis_Sera_Mod.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "leon",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "skinType": "noJacket"
     },
     {
       "id": 10014,
@@ -1036,6 +1036,325 @@
       "installType": "character-bio4-folder"
     },
     {
+      "id": 10019,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/19",
+      "name": "Wesker Midnight",
+      "author": "Negaarmax",
+      "about": "Alternate Wesker midnight skin variant.",
+      "category": "characters",
+      "image": "https://i.ytimg.com/vi/z3Ib1IADY-U/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/gi4leecu76aehui/NEGAARMAX+WESKER+RE5.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "Em",
+          "to": "BIO4/Em"
+        },
+        {
+          "action": "copy",
+          "from": "imagepackhd",
+          "to": "BIO4/imagepackhd"
+        }
+      ],
+      "dependencies": [
+        10018
+      ]
+    },
+    {
+      "id": 10020,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/20",
+      "name": "Wesker & Hunk can use Knife",
+      "author": "Hevilz",
+      "about": "Enables knife use for Wesker and Hunk.",
+      "category": [
+        "others",
+        "byHevilz"
+      ],
+      "image": "https://i.ytimg.com/vi/B1vhTGt-GVg/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/lh3ebjcnz5f9jju/Wesker+&+Hunk+can+use+Knife.rar/file",
+      "installType": "bin32-folder"
+    },
+    {
+      "id": 10021,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/21",
+      "name": "Silver Jacket Skin",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/CqUShLR.jpeg",
+      "download": "https://www.mediafire.com/file_premium/e7hdm9jhjmmrcmp/Silver_Jacket_Costume.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
+    },
+    {
+      "id": 10022,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/22",
+      "name": "Silver Costume",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/7b82McU.jpeg",
+      "download": "https://www.mediafire.com/file_premium/bv2vgqmbvd2aszl/Silver_Costume.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10023,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/23",
+      "name": "Bald Leon Skin",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/v5ozJ9g.jpeg",
+      "download": "https://www.mediafire.com/file_premium/okzso3y8aoyotnj/BALD_Leon_Mod.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
+    },
+    {
+      "id": 10024,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/24",
+      "name": "Black & White Leon Skin",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/bFayWSm.jpeg",
+      "download": "https://www.mediafire.com/file_premium/y52nhuoo5ark6c3/Black_%2526_White_Leon.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10025,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/25",
+      "name": "Red Costume",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/ziAJj0s.jpeg",
+      "download": "https://www.mediafire.com/file_premium/o9mj3n5mvth3c2h/Red_Leon.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10026,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/26",
+      "name": "Leon Coat Skin",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/uZSDhFY.jpeg",
+      "download": "https://www.mediafire.com/file_premium/oi4ad4yqa4km5qf/Leon_Coat.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
+    },
+    {
+      "id": 10027,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/27",
+      "name": "Dark Costume",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/4aAdjga.jpeg",
+      "download": "https://www.mediafire.com/file_premium/dtcoe3m82njvlaa/DARK_COSTUME.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10028,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/28",
+      "name": "Ultimate Skin Pack",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.ytimg.com/vi/JPAzGxIirjg/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file_premium/8cy46lyjxfftuiz/Ultimate_Skin_Pack.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": [
+        "jacket",
+        "noJacket"
+      ]
+    },
+    {
+      "id": 10029,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/29",
+      "name": "Dark Pack Skins",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.imgur.com/D0VUTlq.jpeg",
+      "download": "https://www.mediafire.com/file_premium/mdyguf885jrtyk9/Dark_Pack_Skins.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": [
+        "jacket",
+        "noJacket",
+        "mafia"
+      ]
+    },
+    {
+      "id": 10030,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/30",
+      "name": "Last Phase Skin",
+      "author": "Hevilz",
+      "about": "***",
+      "category": [
+        "skins",
+        "byHevilz"
+      ],
+      "image": "https://i.ytimg.com/vi/sS_wqlVcdGY/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/okd0kpc4yla93jg/Last+Phase+Skin+By+Hevilz.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10031,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/31",
+      "name": "Verdugo Skin",
+      "author": "COconcit",
+      "about": "***",
+      "category": "skins",
+      "image": "https://i.imgur.com/dA6SXSP.jpeg",
+      "download": "https://www.mediafire.com/file_premium/jl6ow1c1kn1pw9n/Verdugo_Skin.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "rpd"
+    },
+    {
+      "id": 10032,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/32",
+      "name": "Winchester Skin 2",
+      "author": "Winchester",
+      "about": "By Winchester",
+      "category": "skins",
+      "image": "https://i.imgur.com/q8Ii8jj.jpeg",
+      "download": "https://www.mediafire.com/file_premium/4mvsjew4fjf16r3/MESTIRI_10_SKIN.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon"
+    },
+    {
+      "id": 10033,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/33",
+      "name": "Dunkin Skin",
+      "author": "DUNKIN",
+      "about": "***",
+      "category": "skins",
+      "image": "https://i.imgur.com/qXJJ129.jpeg",
+      "download": "https://www.mediafire.com/file_premium/kpj3qghyu37wmu6/DUNKIN_SKIN.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10034,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/34",
+      "name": "Ouhm Skin 2",
+      "author": "OUHM",
+      "about": "***",
+      "category": "skins",
+      "image": "https://i.imgur.com/imxKnUP.jpeg",
+      "download": "https://www.mediafire.com/file_premium/qtu7114ym78hzk8/OUHM_SKIN_2.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
+      "id": 10035,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/35",
+      "name": "Ruxf Skin",
+      "author": "RUXF",
+      "about": "***",
+      "category": "skins",
+      "image": "https://i.imgur.com/BGiBeMH.jpeg",
+      "download": "https://www.mediafire.com/file_premium/wlb960cyx9vbyn3/RUXF_SKIN.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
+    },
+    {
+      "id": 10036,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/36",
+      "name": "Leon Evil Skin",
+      "author": "LEON EVIL",
+      "about": "***",
+      "category": "skins",
+      "image": "https://i.imgur.com/zxjjUPT.jpeg",
+      "download": "https://www.mediafire.com/file_premium/wtt54yt87nwxwh2/LEON_EVIL_SKIN.rar/file",
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
+    },
+    {
       "id": 10037,
       "published": true,
       "localOnly": false,
@@ -1044,11 +1363,11 @@
       "author": "LWIMIINOX",
       "about": "About This Mod - FILE.037 by LWIMIINOX. No extended narrative description was provided on the page beyond the file listing.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/jzJ5eBP.jpeg",
       "download": "https://www.mediafire.com/file_premium/dnqofz2raqwhp8g/LWIMIINOX_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10038,
@@ -1059,11 +1378,11 @@
       "author": "ABU CHRIS",
       "about": "About This Mod - FILE.038 by ABU CHRIS. No extended narrative description was provided on the page beyond the file listing.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/XtTwiep.jpeg",
       "download": "https://www.mediafire.com/file_premium/sgh6gt1n7xwtb81/ABU_CHRIS_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10039,
@@ -1079,9 +1398,9 @@
       ],
       "image": "https://i.imgur.com/2ClnyLx.jpeg",
       "download": "https://www.mediafire.com/file_premium/si5ghs1pg3phcc7/MILITARY_ADA.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ada",
-      "skinType": "re2Ada",
-      "installType": "skin-bio4-folder"
+      "skinType": "re2Ada"
     },
     {
       "id": 10040,
@@ -1097,9 +1416,9 @@
       ],
       "image": "https://i.imgur.com/lD5rVub.jpeg",
       "download": "https://www.mediafire.com/file_premium/2alg731waq70efw/DARK_COSTUME_ADA.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ada",
-      "skinType": "normalAda",
-      "installType": "skin-bio4-folder"
+      "skinType": "normalAda"
     },
     {
       "id": 10041,
@@ -1115,9 +1434,9 @@
       ],
       "image": "https://i.imgur.com/JEwVGqv.jpeg",
       "download": "https://www.mediafire.com/file_premium/hhmzg8uo4bwtb6r/GOLDEN_ROSE_ADA.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ada",
-      "skinType": "normalAda",
-      "installType": "skin-bio4-folder"
+      "skinType": "normalAda"
     },
     {
       "id": 10042,
@@ -1133,9 +1452,9 @@
       ],
       "image": "https://i.imgur.com/nvd9W50.jpeg",
       "download": "https://www.mediafire.com/file_premium/hd6v1b51gid0m79/GOLDEN_ASHLEY.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ashley",
-      "skinType": "normalAshley",
-      "installType": "skin-bio4-folder"
+      "skinType": "normalAshley"
     },
     {
       "id": 10043,
@@ -1151,9 +1470,9 @@
       ],
       "image": "https://i.imgur.com/hR4HQA0.jpeg",
       "download": "https://www.mediafire.com/file_premium/xeno0li856ykmzo/DARK_ARMORED_ASHLEY.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ashley",
-      "skinType": "armoredAshley",
-      "installType": "skin-bio4-folder"
+      "skinType": "armoredAshley"
     },
     {
       "id": 10044,
@@ -1169,9 +1488,9 @@
       ],
       "image": "https://i.imgur.com/pPSvkes.jpeg",
       "download": "https://www.mediafire.com/file_premium/mg8pg81zhcm7c4s/GOLDEN_ROSE_ASHLEY.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ashley",
-      "skinType": "normalAshley",
-      "installType": "skin-bio4-folder"
+      "skinType": "normalAshley"
     },
     {
       "id": 10045,
@@ -1187,9 +1506,9 @@
       ],
       "image": "https://i.imgur.com/HusWkFk.jpeg",
       "download": "https://www.mediafire.com/file_premium/krm0t29vzbv0ulj/DARK_COSTUME_ASHLEY.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ashley",
-      "skinType": "normalAshley",
-      "installType": "skin-bio4-folder"
+      "skinType": "normalAshley"
     },
     {
       "id": 10046,
@@ -1205,9 +1524,9 @@
       ],
       "image": "https://i.imgur.com/Tk7ANek.jpeg",
       "download": "https://www.mediafire.com/file_premium/k7kidqex4w9fatj/CHAIN_THEME_ASHLEY.rar/file",
+      "installType": "skin-bio4-folder",
       "character": "ashley",
-      "skinType": "normalAshley",
-      "installType": "skin-bio4-folder"
+      "skinType": "normalAshley"
     },
     {
       "id": 10047,
@@ -1216,7 +1535,6 @@
       "source": "https://hevilzplatform.com/mod/47",
       "name": "Chain Theme Skin",
       "author": "HEVILZ",
-      "character": "leon",
       "about": "About This Mod - FILE.047 by HEVILZ. No extended narrative description was provided on the page beyond the file listing.",
       "category": [
         "skins",
@@ -1224,8 +1542,9 @@
       ],
       "image": "https://i.imgur.com/lWnSdLn.jpeg",
       "download": "https://www.mediafire.com/file_premium/m73hp23456xs6jd/CHAIN_THEME_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10048,
@@ -1236,11 +1555,11 @@
       "author": "ALSHUMARAY",
       "about": "About This Mod - FILE.048 by ALSHUMARAY. No extended narrative description was provided on the page beyond the file listing.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/krezSuU.jpeg",
       "download": "https://www.mediafire.com/file_premium/fty6nz9888qe4fg/ALSHUMARAY_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10049,
@@ -1251,11 +1570,11 @@
       "author": "OUHM",
       "about": "About This Mod - FILE.049 by OUHM. Limited description provided on the page.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/1C1zaRs.jpeg",
       "download": "https://www.mediafire.com/file_premium/s7golo7vcdvm9n3/OUHM_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10050,
@@ -1266,11 +1585,11 @@
       "author": "MORTH",
       "about": "About This Mod - FILE.050 by MORTH. Minimal description provided on the page beyond identifying it as a skin mod.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/Annbgqb.jpeg",
       "download": "https://www.mediafire.com/file_premium/eqmyi0pj7xl9ndb/MORTH_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10051,
@@ -1281,11 +1600,11 @@
       "author": "WINCHESTER",
       "about": "About This Mod - FILE.051 by WINCHESTER. No extended narrative description was provided on the page beyond the file listing.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/N3fLRdD.jpeg",
       "download": "https://www.mediafire.com/file_premium/a26v393cadh1xnn/WINCHESTER_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10052,
@@ -1296,11 +1615,11 @@
       "author": "TUFFIY",
       "about": "About This Mod - FILE.052 by TUFFIY. No extended narrative description was provided beyond the title and category designation.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/cEnOofm.jpeg",
       "download": "https://www.mediafire.com/file_premium/vswhza38kkt6h61/TUFFIY_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10053,
@@ -1311,11 +1630,11 @@
       "author": "PLAYER7Z",
       "about": "About This Mod - FILE.053 by PLAYER7Z. Minimal descriptive detail provided beyond categorization as a skin modification.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/PLruwtm.jpeg",
       "download": "https://www.mediafire.com/file_premium/lteo3obkw7so8p6/PLAYER7Z_SKIN_2.rar/file",
-      "skinType": "rpd",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "rpd"
     },
     {
       "id": 10054,
@@ -1326,11 +1645,11 @@
       "author": "ANOOD",
       "about": "About This Mod - FILE.054 by ANOOD. Limited information provided on the page.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/C7LxBLh.jpeg",
       "download": "https://www.mediafire.com/file_premium/kxvi6ptq04klt2t/ANOOD_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10055,
@@ -1341,11 +1660,11 @@
       "author": "RA3D",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/l3NObR3.jpeg",
       "download": "https://www.mediafire.com/file_premium/17yl6wdwp2t5cmc/RA3D_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10056,
@@ -1356,11 +1675,11 @@
       "author": "ZORO333",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/hevOjm4.jpeg",
       "download": "https://www.mediafire.com/file_premium/8vxjeljm1bxeh7v/ZORO333_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10057,
@@ -1371,11 +1690,11 @@
       "author": "RARAY",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/KzIj8sT.jpeg",
       "download": "https://www.mediafire.com/file_premium/90rtku9q0ub14j5/RAY_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10058,
@@ -1386,11 +1705,11 @@
       "author": "ZD-MORI",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/aVyeJDm.jpeg",
       "download": "https://www.mediafire.com/file_premium/psyt473efsxk6to/ZD-MORI_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10059,
@@ -1401,11 +1720,11 @@
       "author": "ABU ALZEE",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/MCi2b78.jpeg",
       "download": "https://www.mediafire.com/file_premium/z5mxl3pnka14dzt/ABU_ALZEE_SKIN.rar/file",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
     },
     {
       "id": 10060,
@@ -1416,11 +1735,11 @@
       "author": "SABO",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/dmyYCy3.jpeg",
       "download": "https://www.mediafire.com/file_premium/gugdx7o4cksu4ms/SABO_SKIN.rar/file",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
     },
     {
       "id": 10061,
@@ -1431,23 +1750,24 @@
       "author": "SHNAIKATT",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/vGsYvQm.jpeg",
       "download": "https://www.mediafire.com/file_premium/fvqbd8a53yfmbxo/SHNAIKATT_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
+      "id": 10062,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/62",
       "name": "_5ej Skin",
       "author": "_5EJ",
       "about": "***",
-      "source": "https://hevilzplatform.com/mod/62",
+      "platformSupport": "both",
+      "category": "skins",
       "image": "https://i.imgur.com/TvaHHab.jpeg",
       "download": "https://www.mediafire.com/file_premium/tw2u8211wx6lg7i/_5EJ_SKIN.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
       "installType": null,
       "installGuide": [
         {
@@ -1457,8 +1777,7 @@
         }
       ],
       "character": "leon",
-      "skinType": "noJacket",
-      "id": 10062
+      "skinType": "noJacket"
     },
     {
       "id": 10063,
@@ -1469,11 +1788,11 @@
       "author": "XIIAMJD",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/YB36pke.jpeg",
       "download": "https://www.mediafire.com/file_premium/7cvkhkumoc4logw/XIIAMJD_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10064,
@@ -1484,11 +1803,11 @@
       "author": "ENG.LUNA",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/9rP0GcW.jpeg",
       "download": "https://www.mediafire.com/file_premium/m5ourdtzepdddnx/ENG.LUNA_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10065,
@@ -1499,11 +1818,11 @@
       "author": "MOSSAAB",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/gAF2pYO.jpeg",
       "download": "https://www.mediafire.com/file_premium/0n8dshid8mz70el/MOSSAAB_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10066,
@@ -1514,11 +1833,11 @@
       "author": "MUBARAK",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/AwKFat1.jpeg",
       "download": "https://www.mediafire.com/file_premium/7fvhqjkxvu3eej2/MUBARAK_SKIN.rar/file",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
     },
     {
       "id": 10067,
@@ -1529,11 +1848,11 @@
       "author": "UNKNOWN",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/lK1YWHK.jpeg",
       "download": "https://www.mediafire.com/file_premium/jikc5vjsbhzgzek/UNKNOWN_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10068,
@@ -1544,11 +1863,11 @@
       "author": "1ROD",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/sagfdK0.jpeg",
       "download": "https://www.mediafire.com/file_premium/n34h4napk9a3g9m/1ROD_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10069,
@@ -1559,11 +1878,11 @@
       "author": "NM",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/UaLBGc7.jpeg",
       "download": "https://www.mediafire.com/file_premium/mgwlg7xyxu1a45f/NM_SKIN.rar/file",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "jacket"
     },
     {
       "id": 10070,
@@ -1574,11 +1893,11 @@
       "author": "PLAYER7Z",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/QbO56QT.jpeg",
       "download": "https://www.mediafire.com/file_premium/9rjoau02kq5de6r/PLAYER7Z_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10071,
@@ -1589,11 +1908,11 @@
       "author": "DOLLY",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/u4JbPCL.jpeg",
       "download": "https://www.mediafire.com/file_premium/98v06l7bjqqq8rk/DOLLY_SKIN.rar/file",
-      "skinType": "mafia",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "mafia"
     },
     {
       "id": 10072,
@@ -1604,11 +1923,11 @@
       "author": "NOID",
       "about": "***",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/aunq9OD.jpeg",
       "download": "https://www.mediafire.com/file_premium/vxhowzzpfj1pv5m/NOID_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10073,
@@ -1619,11 +1938,11 @@
       "author": "HAVEE",
       "about": "A character skin mod for Resident Evil 4 by HAVEE. The mod page provides only minimal description text (listed simply as file entry 073) with no extended write-up.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/brpmbfc.jpeg",
       "download": "https://www.mediafire.com/file_premium/v5i174m5sui5e81/HAVEE_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10074,
@@ -1634,11 +1953,11 @@
       "author": "IBA",
       "about": "A character skin modification for Resident Evil 4 by IBA. No extended description is provided beyond the mod's file designation.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/kFcVEmt.jpeg",
       "download": "https://www.mediafire.com/file_premium/7ec9fwqszcwlrwi/IBA_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10075,
@@ -1649,11 +1968,11 @@
       "author": "ZFGAMING",
       "about": "A character skin mod for Resident Evil 4 by ZFGAMING. The page lists it only as file entry 075 with minimal additional context.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/bijHF1g.jpeg",
       "download": "https://www.mediafire.com/file_premium/a25rir4di1ahweq/ZFGAMING_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
       "id": 10076,
@@ -1664,11 +1983,11 @@
       "author": "MIMER",
       "about": "A character skin modification for Resident Evil 4 by MIMER, listed on the site as an archive file under the skins category.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/HlFRLt5.jpeg",
       "download": "https://www.mediafire.com/file_premium/l59433vaz6yowqp/MINER_SKIN.rar/file",
-      "skinType": "rpd",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "rpd"
     },
     {
       "id": 10077,
@@ -1679,38 +1998,38 @@
       "author": "FA_TB",
       "about": "A character skin mod for Resident Evil 4 by FA_TB. Only a bare file reference (FILE.077) is provided on the page, with no extended write-up.",
       "category": "skins",
-      "character": "leon",
       "image": "https://i.imgur.com/adJcrAf.jpeg",
       "download": "https://www.mediafire.com/file_premium/n8m0gvw2ra86y8q/FA_TB_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
+      "installType": "skin-bio4-folder",
+      "character": "leon",
+      "skinType": "noJacket"
     },
     {
+      "id": 10078,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/78",
       "name": "Dark Pack",
       "author": "Hevilz",
       "about": "HD Project dark-themed overhaul pack.",
-      "source": "https://hevilzplatform.com/mod/78",
-      "image": "https://i.ytimg.com/vi/EgIeHOG6rQg/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/w1x6e95swhe267n/Dark+Pack+Mod+(+HD+Project+)+By+Hevilz.rar/file",
+      "platformSupport": "both",
       "category": [
         "weapons",
         "byHevilz"
       ],
-      "platformSupport": "both",
-      "published": false,
-      "localOnly": false,
+      "image": "https://i.ytimg.com/vi/EgIeHOG6rQg/hqdefault.jpg",
+      "download": "https://www.mediafire.com/file/w1x6e95swhe267n/Dark+Pack+Mod+(+HD+Project+)+By+Hevilz.rar/file",
       "installGuide": [
         {
           "action": "copy",
           "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
-      ],
-      "id": 10078
+      ]
     },
     {
       "id": 10079,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/79",
       "name": "Golden Rose Pack",
@@ -1729,7 +2048,7 @@
     },
     {
       "id": 10080,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/80",
       "name": "Deepslate Pack (Premium)",
@@ -1754,15 +2073,15 @@
       "name": "Arabic Voices Mod",
       "author": "Cocorazon",
       "about": "Full Arabic voice replacement for Resident Evil 4 UHD. The archive is password protected (password: Corazon).",
+      "platformSupport": "hd",
       "category": "sounds",
       "image": "https://i.imgur.com/Qi7BvcP.jpeg",
       "download": "https://www.mediafire.com/file/qtwh5l13ebzr7u0/Resident+Evil+4+Arabic+Voices.rar/file",
-      "platformSupport": "hd",
       "installType": "skin-bio4-folder"
     },
     {
       "id": 10082,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/82",
       "name": "Ultra Weapons Sounds (Premium)",
@@ -1787,6 +2106,7 @@
       "name": "Realistic Weapons Sounds",
       "author": "Hevilz",
       "about": "Realistic gunfire and weapon sound replacements for the Resident Evil 4 UHD (HD Project) build, packaged as the 'Re4-UHD Realistic Weapons Sounds Pack'.",
+      "platformSupport": "hd",
       "category": [
         "sounds",
         "byHevilz"
@@ -1799,8 +2119,7 @@
           "from": "snd",
           "to": "BIO4/snd"
         }
-      ],
-      "platformSupport": "hd"
+      ]
     },
     {
       "id": 10084,
@@ -1926,7 +2245,7 @@
     },
     {
       "id": 10087,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/87",
       "name": "Dining Room Recolor",
@@ -1948,12 +2267,13 @@
     },
     {
       "id": 10088,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/88",
       "name": "Magic Book",
       "author": "Hevilz",
       "about": "Adds a magic book item to Resident Evil 4, built for the UHD (HD Project) release.",
+      "platformSupport": "hd",
       "category": [
         "weapons",
         "byHevilz"
@@ -1966,8 +2286,7 @@
           "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
-      ],
-      "platformSupport": "hd"
+      ]
     },
     {
       "id": 10089,
@@ -2015,7 +2334,7 @@
     },
     {
       "id": 10091,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/91",
       "name": "Raz0r's Trainer",
@@ -2034,7 +2353,7 @@
     },
     {
       "id": 10092,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/92",
       "name": "Skin Edit Toolkit",
@@ -2053,7 +2372,7 @@
     },
     {
       "id": 10093,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/93",
       "name": "Map Editing Tutorial",
@@ -2075,7 +2394,7 @@
     },
     {
       "id": 10094,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/94",
       "name": "Collision Editing Tutorial",
@@ -2097,13 +2416,12 @@
     },
     {
       "id": 10095,
-      "published": false,
+      "published": true,
       "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/95",
+      "source": "https://hevilzplatform.com/mod/10227",
       "name": "HD Project",
       "author": "Cris & Albert",
       "about": "Full HD Project texture overhaul for Resident Evil 4, distributed in multiple versions (1.1 and 2018 editions), each split across two archive parts.",
-      "isHdProjectCore": true,
       "category": "others",
       "image": "https://i.imgur.com/q3ir0xu.jpeg",
       "download": "https://www.mediafire.com/file/yo9fir0g3mgnovp/Re4_UHD_Steam_HD_Project_1.1_P1.rar/file",
@@ -2113,11 +2431,12 @@
           "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
-      ]
+      ],
+      "isHdProjectCore": true
     },
     {
       "id": 10096,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/96",
       "name": "RE4Tweaks",
@@ -2136,7 +2455,7 @@
     },
     {
       "id": 10097,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/97",
       "name": "How To Switch Between Mods",
@@ -2158,7 +2477,7 @@
     },
     {
       "id": 10098,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/98",
       "name": "Ammo Stacking",
@@ -2236,7 +2555,7 @@
     },
     {
       "id": 10100,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/100",
       "name": "Survival Mod (Premium)",
@@ -2528,7 +2847,6 @@
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/99.jpg",
       "download": "https://www.mediafire.com/file/flubmf0diis0uej/BIOHAZARD_Mod_RE4_UHD.zip/file",
       "installType": "standard-bin32-bio4",
-      "installTypeScope": "Biological Hazard ( the main )",
       "selectableAddOns": {
         "groups": [
           {
@@ -2550,7 +2868,8 @@
             ]
           }
         ]
-      }
+      },
+      "installTypeScope": "Biological Hazard ( the main )"
     },
     {
       "id": 10117,
@@ -2571,7 +2890,7 @@
     },
     {
       "id": 10118,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/118",
       "name": "Castle Trap",
@@ -2716,7 +3035,7 @@
     },
     {
       "id": 10126,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/126",
       "name": "Unknown (Premium)",
@@ -2756,7 +3075,7 @@
     },
     {
       "id": 10129,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/129",
       "name": "Medieval Era",
@@ -2812,7 +3131,7 @@
       "difficulty": "Hard",
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/85.jpg",
-      "download": "https://www.mediafire.com/file/m6d7jkdscz4wzdn/Black_Night_Mod.rar/file",
+      "download": "https://www.mediafire.com/file/12tvkce6mji0eav/Black+Night.rar/file",
       "installType": "standard-bin32-bio4"
     },
     {
@@ -2834,7 +3153,7 @@
     },
     {
       "id": 10132,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/132",
       "name": "Hunters Play",
@@ -2846,7 +3165,7 @@
       "difficulty": "Medium",
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/83.jpg",
-      "download": "https://drive.google.com/file/d/18BMVGldR06rbPbsWBrS4JXeuiFePJ4tk/view",
+      "download": "https://www.mediafire.com/file/1br653hdhyefmxc/Hunters+Play+Mod.zip/file",
       "installGuide": [
         {
           "action": "copy",
@@ -2857,7 +3176,7 @@
     },
     {
       "id": 10133,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/133",
       "name": "Unknown of Evil",
@@ -3081,6 +3400,7 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/67.jpg",
       "download": "https://www.mediafire.com/file/47tanlargxagg5v/DEATH_IS_COMING.rar/file",
+      "installType": "standard-bin32-bio4",
       "installGuide": [
         {
           "action": "delete",
@@ -3094,8 +3414,7 @@
           "action": "delete",
           "target": "BIO4/St5"
         }
-      ],
-      "installType": "standard-bin32-bio4"
+      ]
     },
     {
       "id": 10148,
@@ -3116,7 +3435,7 @@
     },
     {
       "id": 10149,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/149",
       "name": "Project Farlands",
@@ -3133,7 +3452,7 @@
     },
     {
       "id": 10150,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/150",
       "name": "Time To Die",
@@ -3146,6 +3465,7 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/62.jpg",
       "download": "https://drive.google.com/file/d/170kn5X-y0A6YSw5dLRwUJ36dccxhp1CE/view",
+      "installType": "resident-evil-folder",
       "installGuide": [
         {
           "action": "delete",
@@ -3155,20 +3475,23 @@
           "action": "delete",
           "target": "BIO4"
         }
-      ],
-      "installType": "resident-evil-folder"
+      ]
     },
     {
+      "id": 10151,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/151",
       "name": "EXTREME CONDITION MOD | مود البرازيلي",
       "author": "LuisWebber (ported by ZORO333)",
       "about": "By LuisWebber. Easy difficulty full overhaul mod.",
-      "source": "https://hevilzplatform.com/mod/151",
+      "modLength": "medium",
+      "platformSupport": "both",
+      "lootDensity": "abundant",
+      "difficulty": "Easy",
+      "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/61.jpg",
       "download": "https://www.mediafire.com/file/9yzskhnjodw8bgs/Extreme+Condition+%D9%85%D9%88%D8%AF+%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A+FIXED+PORT.rar/file",
-      "category": "storyMods",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
       "installGuide": [
         {
           "action": "select",
@@ -3184,11 +3507,7 @@
           "from": "BIO4",
           "to": "BIO4/"
         }
-      ],
-      "modLength": "medium",
-      "lootDensity": "abundant",
-      "difficulty": "Easy",
-      "id": 10151
+      ]
     },
     {
       "id": 10152,
@@ -3226,7 +3545,7 @@
     },
     {
       "id": 10154,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/154",
       "name": "No Hope",
@@ -3290,6 +3609,7 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/55.jpg",
       "download": "https://www.mediafire.com/file_premium/p5nqe9l4ooce8or/Resident_Evil_4_World_S_v1.2.rar/file",
+      "installType": "resident-evil-folder",
       "installGuide": [
         {
           "action": "delete",
@@ -3299,8 +3619,7 @@
           "action": "delete",
           "target": "BIO4"
         }
-      ],
-      "installType": "resident-evil-folder"
+      ]
     },
     {
       "id": 10158,
@@ -3347,20 +3666,20 @@
       ]
     },
     {
+      "id": 10160,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/160",
       "name": "Alfajr",
       "author": "Z.H.R-RE4 (Porter: Paullinho Oliveira)",
       "about": "By Z.H.R-RE4. Hard difficulty full overhaul mod.",
-      "source": "https://hevilzplatform.com/mod/160",
-      "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/53.jpg",
-      "download": "https://www.mediafire.com/file/74nszx2otgd722y/THE+ALFAJR+UHD.rar/file",
-      "category": "storyMods",
-      "platformSupport": "hd",
-      "published": true,
-      "localOnly": false,
       "modLength": "medium",
+      "platformSupport": "hd",
       "lootDensity": "medium",
       "difficulty": "Hard",
-      "id": 10160,
+      "category": "storyMods",
+      "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/53.jpg",
+      "download": "https://www.mediafire.com/file/74nszx2otgd722y/THE+ALFAJR+UHD.rar/file",
       "installType": "standard-bin32-bio4"
     },
     {
@@ -3455,7 +3774,7 @@
     },
     {
       "id": 10165,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/165",
       "name": "Source Of Evil",
@@ -3604,6 +3923,7 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/38.jpg",
       "download": "https://www.mediafire.com/file/bla7v0tt185zqq7/RE4_Origins_Mod.rar/file",
+      "installType": "resident-evil-folder",
       "installGuide": [
         {
           "action": "delete",
@@ -3613,8 +3933,7 @@
           "action": "delete",
           "target": "BIO4"
         }
-      ],
-      "installType": "resident-evil-folder"
+      ]
     },
     {
       "id": 10174,
@@ -3873,7 +4192,7 @@
     },
     {
       "id": 10189,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/189",
       "name": "Death In Hell",
@@ -3892,7 +4211,7 @@
       "id": 10190,
       "published": true,
       "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/190",
+      "source": "https://hevilzplatform.com/mod/10249",
       "name": "The Wrath Of Chaos",
       "author": "ScoovyHD",
       "about": "By ScoovyHD. Hard difficulty full overhaul mod.",
@@ -4039,349 +4358,13 @@
       "category": "storyMods",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/9.jpg",
       "download": "https://www.mediafire.com/file/b5hs4ofaq55bd7c/FHODTSHE+MOD.rar/file",
+      "installType": "bin32-bio4-files",
       "installGuide": [
         {
           "action": "delete",
           "target": "BIO4/St3"
         }
-      ],
-      "installType": "bin32-bio4-files"
-    },
-    {
-      "id": 10203,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/203",
-      "name": "RISING OF EVIL DEFINITIVE EDITION",
-      "author": "LuisWebber (Definitive Edition by Kteo)",
-      "about": "By LuisWebber. Medium difficulty full overhaul mod.",
-      "modLength": "long",
-      "platformSupport": "original",
-      "lootDensity": "medium",
-      "difficulty": "Medium",
-      "category": "storyMods",
-      "image": "https://i.imgur.com/aNKvA4r.jpeg",
-      "download": "https://www.mediafire.com/file/hnu434ld1s48hon/RE4UHD_Rising_of_Evil_-_Definitive_Edition.rar/file",
-      "installType": "standard-bin32-bio4"
-    },
-    {
-      "id": 10019,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/19",
-      "name": "Wesker Midnight",
-      "author": "Negaarmax",
-      "about": "Alternate Wesker midnight skin variant.",
-      "category": "characters",
-      "image": "https://i.ytimg.com/vi/z3Ib1IADY-U/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/gi4leecu76aehui/NEGAARMAX+WESKER+RE5.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "Em",
-          "to": "BIO4/Em"
-        },
-        {
-          "action": "copy",
-          "from": "imagepackhd",
-          "to": "BIO4/imagepackhd"
-        }
-      ],
-      "dependencies": [
-        10018
       ]
-    },
-    {
-      "id": 10020,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/20",
-      "name": "Wesker & Hunk can use Knife",
-      "author": "Hevilz",
-      "about": "Enables knife use for Wesker and Hunk.",
-      "category": [
-        "others",
-        "byHevilz"
-      ],
-      "image": "https://i.ytimg.com/vi/B1vhTGt-GVg/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/lh3ebjcnz5f9jju/Wesker+&+Hunk+can+use+Knife.rar/file",
-      "installType": "bin32-folder"
-    },
-    {
-      "id": 10021,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/21",
-      "name": "Silver Jacket Skin",
-      "author": "Hevilz",
-      "about": "***",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/CqUShLR.jpeg",
-      "download": "https://www.mediafire.com/file_premium/e7hdm9jhjmmrcmp/Silver_Jacket_Costume.rar/file",
-      "character": "leon",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10022,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/22",
-      "name": "Silver Costume",
-      "author": "Hevilz",
-      "about": "***",
-      "character": "leon",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/7b82McU.jpeg",
-      "download": "https://www.mediafire.com/file_premium/bv2vgqmbvd2aszl/Silver_Costume.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10023,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/23",
-      "name": "Bald Leon Skin",
-      "author": "Hevilz",
-      "about": "***",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/v5ozJ9g.jpeg",
-      "download": "https://www.mediafire.com/file_premium/okzso3y8aoyotnj/BALD_Leon_Mod.rar/file",
-      "character": "leon",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10024,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/24",
-      "name": "Black & White Leon Skin",
-      "author": "Hevilz",
-      "about": "***",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/bFayWSm.jpeg",
-      "download": "https://www.mediafire.com/file_premium/y52nhuoo5ark6c3/Black_%2526_White_Leon.rar/file",
-      "character": "leon",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10025,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/25",
-      "name": "Red Costume",
-      "author": "Hevilz",
-      "about": "***",
-      "character": "leon",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/ziAJj0s.jpeg",
-      "download": "https://www.mediafire.com/file_premium/o9mj3n5mvth3c2h/Red_Leon.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10026,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/26",
-      "name": "Leon Coat Skin",
-      "author": "Hevilz",
-      "about": "***",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/uZSDhFY.jpeg",
-      "download": "https://www.mediafire.com/file_premium/oi4ad4yqa4km5qf/Leon_Coat.rar/file",
-      "character": "leon",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10027,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/27",
-      "name": "Dark Costume",
-      "author": "Hevilz",
-      "about": "***",
-      "character": "leon",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/4aAdjga.jpeg",
-      "download": "https://www.mediafire.com/file_premium/dtcoe3m82njvlaa/DARK_COSTUME.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10028,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/28",
-      "name": "Ultimate Skin Pack",
-      "author": "Hevilz",
-      "about": "***",
-      "character": "leon",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.ytimg.com/vi/JPAzGxIirjg/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file_premium/8cy46lyjxfftuiz/Ultimate_Skin_Pack.rar/file",
-      "skinType": [
-        "jacket",
-        "noJacket"
-      ],
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10029,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/29",
-      "name": "Dark Pack Skins",
-      "author": "Hevilz",
-      "about": "***",
-      "character": "leon",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.imgur.com/D0VUTlq.jpeg",
-      "download": "https://www.mediafire.com/file_premium/mdyguf885jrtyk9/Dark_Pack_Skins.rar/file",
-      "skinType": [
-        "jacket",
-        "noJacket",
-        "mafia"
-      ],
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10030,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/30",
-      "name": "Last Phase Skin",
-      "author": "Hevilz",
-      "about": "***",
-      "character": "leon",
-      "category": [
-        "skins",
-        "byHevilz"
-      ],
-      "image": "https://i.ytimg.com/vi/sS_wqlVcdGY/hqdefault.jpg",
-      "download": "https://www.mediafire.com/file/okd0kpc4yla93jg/Last+Phase+Skin+By+Hevilz.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10031,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/31",
-      "name": "Verdugo Skin",
-      "author": "COconcit",
-      "about": "***",
-      "category": "skins",
-      "image": "https://i.imgur.com/dA6SXSP.jpeg",
-      "download": "https://www.mediafire.com/file_premium/jl6ow1c1kn1pw9n/Verdugo_Skin.rar/file",
-      "character": "leon",
-      "skinType": "rpd",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10032,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/32",
-      "name": "Winchester Skin 2",
-      "author": "Winchester",
-      "about": "By Winchester",
-      "category": "skins",
-      "character": "leon",
-      "image": "https://i.imgur.com/q8Ii8jj.jpeg",
-      "download": "https://www.mediafire.com/file_premium/4mvsjew4fjf16r3/MESTIRI_10_SKIN.rar/file",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10033,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/33",
-      "name": "Dunkin Skin",
-      "author": "DUNKIN",
-      "about": "***",
-      "category": "skins",
-      "character": "leon",
-      "image": "https://i.imgur.com/qXJJ129.jpeg",
-      "download": "https://www.mediafire.com/file_premium/kpj3qghyu37wmu6/DUNKIN_SKIN.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10034,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/34",
-      "name": "Ouhm Skin 2",
-      "author": "OUHM",
-      "about": "***",
-      "category": "skins",
-      "character": "leon",
-      "image": "https://i.imgur.com/imxKnUP.jpeg",
-      "download": "https://www.mediafire.com/file_premium/qtu7114ym78hzk8/OUHM_SKIN_2.rar/file",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10035,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/35",
-      "name": "Ruxf Skin",
-      "author": "RUXF",
-      "about": "***",
-      "category": "skins",
-      "character": "leon",
-      "image": "https://i.imgur.com/BGiBeMH.jpeg",
-      "download": "https://www.mediafire.com/file_premium/wlb960cyx9vbyn3/RUXF_SKIN.rar/file",
-      "skinType": "jacket",
-      "installType": "skin-bio4-folder"
-    },
-    {
-      "id": 10036,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/36",
-      "name": "Leon Evil Skin",
-      "author": "LEON EVIL",
-      "about": "***",
-      "category": "skins",
-      "image": "https://i.imgur.com/zxjjUPT.jpeg",
-      "download": "https://www.mediafire.com/file_premium/wtt54yt87nwxwh2/LEON_EVIL_SKIN.rar/file",
-      "character": "leon",
-      "skinType": "noJacket",
-      "installType": "skin-bio4-folder"
     },
     {
       "id": 10199,
@@ -4419,7 +4402,7 @@
     },
     {
       "id": 10201,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/201",
       "name": "Dark Inferno",
@@ -4436,7 +4419,7 @@
     },
     {
       "id": 10202,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/202",
       "name": "Randomizer (Items - Enemies)",
@@ -4456,6 +4439,23 @@
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
       ]
+    },
+    {
+      "id": 10203,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/203",
+      "name": "RISING OF EVIL DEFINITIVE EDITION",
+      "author": "LuisWebber (Definitive Edition by Kteo)",
+      "about": "By LuisWebber. Medium difficulty full overhaul mod.",
+      "modLength": "long",
+      "platformSupport": "original",
+      "lootDensity": "medium",
+      "difficulty": "Medium",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/aNKvA4r.jpeg",
+      "download": "https://www.mediafire.com/file/hnu434ld1s48hon/RE4UHD_Rising_of_Evil_-_Definitive_Edition.rar/file",
+      "installType": "standard-bin32-bio4"
     },
     {
       "id": 10204,
@@ -4544,7 +4544,7 @@
     },
     {
       "id": 10209,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/209",
       "name": "Los Crackudos Chaotic",
@@ -4584,7 +4584,7 @@
     },
     {
       "id": 10211,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/211",
       "name": "Arrange HD Project",
@@ -4607,7 +4607,7 @@
     },
     {
       "id": 10212,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10212",
       "name": "RYOMEN SKIN",
@@ -4636,16 +4636,17 @@
       "installType": "standard-bin32-bio4"
     },
     {
+      "id": 10215,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10215",
       "name": "BIG SMOKE SKIN",
       "author": "kaiyo",
       "about": "By Kaiyo & Malek",
-      "source": "https://hevilzplatform.com/mod/10215",
+      "platformSupport": "both",
+      "category": "skins",
       "image": "https://i.imgur.com/0hxfyAh.jpeg",
       "download": "https://www.mediafire.com/file/urc8k1jchey2e2z/Big+Smoke+Skin+By+Kaiyo+%26+Malek.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
       "installGuide": [
         {
           "action": "copy",
@@ -4654,12 +4655,11 @@
         }
       ],
       "character": "leon",
-      "skinType": "noJacket",
-      "id": 10215
+      "skinType": "noJacket"
     },
     {
       "id": 10216,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10216",
       "name": "M5aui SKIN",
@@ -4672,7 +4672,7 @@
     },
     {
       "id": 10218,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10218",
       "name": "REimaginatorr SKIN",
@@ -4697,20 +4697,21 @@
       "difficulty": "Hard",
       "category": "storyMods",
       "image": "https://i.imgur.com/kAxjsmt.jpeg",
-      "download": "https://www.mediafire.com/file/9wpdnl208ajve65/The+sin+mod++hd+project+.rar/file",
+      "download": "https://www.mediafire.com/file/2jwyooonwtj3ocz/The+sin+mod++hd+project+.rar/file",
       "installType": "standard-bin32-bio4"
     },
     {
+      "id": 10220,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10221",
       "name": "LEON EVIL SKIN 2",
       "author": "LEON EVIL",
       "about": "BY LEON EVIL",
-      "source": "https://hevilzplatform.com/mod/10221",
+      "platformSupport": "both",
+      "category": "skins",
       "image": "https://i.imgur.com/Qyccy72.jpeg",
       "download": "https://www.mediafire.com/file/o524ubcghj1o22o/LEON+EVIL+SKIN+2.rar/file",
-      "category": "skins",
-      "platformSupport": "both",
-      "published": true,
-      "localOnly": false,
       "installGuide": [
         {
           "action": "copy",
@@ -4719,20 +4720,23 @@
         }
       ],
       "character": "leon",
-      "skinType": "noJacket",
-      "id": 10220
+      "skinType": "noJacket"
     },
     {
+      "id": 10221,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10224",
       "name": "The Vial Blood",
       "author": "Dark Knight",
       "about": "Author: Dark Knight. A community-contributed modification for the Hevilz archive.",
-      "source": "https://hevilzplatform.com/mod/10224",
+      "modLength": "short",
+      "platformSupport": "hd",
+      "lootDensity": "medium",
+      "difficulty": "Medium",
+      "category": "storyMods",
       "image": "https://i.imgur.com/87k2acc.jpeg",
       "download": "https://www.mediafire.com/file/h247rstj7w8h069/Resident+Evil+4+The+Vial+Blood+By+Dark+Knight.rar/file",
-      "category": "storyMods",
-      "platformSupport": "hd",
-      "published": true,
-      "localOnly": false,
       "installGuide": [
         {
           "action": "copy",
@@ -4744,15 +4748,11 @@
           "from": "BIO4",
           "to": "BIO4"
         }
-      ],
-      "modLength": "short",
-      "lootDensity": "medium",
-      "difficulty": "Medium",
-      "id": 10221
+      ]
     },
     {
       "id": 10222,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "***FILL_IN_SOURCE_URL***",
       "name": "Suffering In Hell",
@@ -4761,6 +4761,294 @@
       "category": "storyMods",
       "image": "***FILL_IN_IMAGE_URL***",
       "download": "***FILL_IN_DOWNLOAD_URL***",
+      "installType": "standard-bin32-bio4"
+    },
+    {
+      "id": 10223,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10225",
+      "name": "Vermilion Vortex Mod",
+      "author": "Ulquien",
+      "about": "Author: Ulquien. A community-contributed modification for the Hevilz archive.",
+      "difficulty": "Hard",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/zSGsIab.jpeg",
+      "download": "https://www.mediafire.com/file/5mt9qr1baep508a/Vermilion+Vortex.rar/file",
+      "installType": "standard-bin32-bio4"
+    },
+    {
+      "id": 10224,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10228",
+      "name": "Zay Skin",
+      "author": "ZAY | زايد",
+      "about": "Author: ZAY. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/j4xSxc9.jpeg",
+      "download": "https://www.mediafire.com/file/nicgfppf2s5jbum/ZAY+Skin.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10225,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10230",
+      "name": "Abusfir Skin",
+      "author": "ABUSFIR",
+      "about": "Author: ABUSFIR. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/NgSShHE.jpeg",
+      "download": "https://www.mediafire.com/file/6bjr7yn4za58s57/ABUSFIR+Skin.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10226,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10232",
+      "name": "Itsdax Skin",
+      "author": "itsDAX",
+      "about": "Author: itsDAX. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/1FLsGKY.jpeg",
+      "download": "https://www.mediafire.com/file/hgpvhm93ifydqwz/itsDax+SKIN.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10227,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10234",
+      "name": "Mix The Reaper",
+      "author": "Mixynn",
+      "about": "Author: Mixynn. A community-contributed modification for the Hevilz archive.",
+      "difficulty": "Hard",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/Dz0kU8X.jpeg",
+      "download": "https://www.mediafire.com/file/9552yc7mr1v7d6h/NEW+MOD+MIX+THE+REAPER.rar/file",
+      "installType": "standard-bin32-bio4"
+    },
+    {
+      "id": 10228,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10235",
+      "name": "Tonight The Village",
+      "author": "wizx",
+      "about": "Author: wizx. A community-contributed modification for the Hevilz archive.",
+      "difficulty": "Medium",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/xJu657X.jpeg",
+      "download": "https://www.mediafire.com/file/h8p2k8mxw0vz1j1/Tonight+the+village.rar/file",
+      "installType": "standard-bin32-bio4"
+    },
+    {
+      "id": 10229,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10236",
+      "name": "No Way For Leon Mod",
+      "author": "7RB",
+      "about": "By 7RB. A community-contributed modification for the Hevilz archive. (Page also credits 'Author: 4g_z' inconsistently; Creator field shows 7RB.)",
+      "difficulty": "Medium",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/L2K78SI.jpeg",
+      "download": "https://www.mediafire.com/file/3ykv7m2zcq4brl9/No+way+For+Leon+Mod+HD+PROJECT+1.1.rar/file",
+      "installType": "standard-bin32-bio4"
+    },
+    {
+      "id": 10230,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10238",
+      "name": "7RB Skin",
+      "author": "7RB",
+      "about": "Author: 7RB. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/GNAzxD0.jpeg",
+      "download": "https://www.mediafire.com/file/e7dksl62xl75knh/7RB+Skin.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10231,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10240",
+      "name": "Bandicoot Mega",
+      "author": "TEX",
+      "about": "This mod replaces the Mega Salvador's skin with a Crash Bandicoot skin.",
+      "category": "enemies",
+      "image": "https://i.imgur.com/S5s7Pic.jpeg",
+      "download": "https://www.mediafire.com/file/yag4m2k9k3ynbf8/Bandicoot+MEGA+SKIN.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ]
+    },
+    {
+      "id": 10232,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10242",
+      "name": "Dark Mega Skin",
+      "author": "m5aui",
+      "about": "This mod changes the Mega Salvador skin texture.",
+      "category": "enemies",
+      "image": "https://i.imgur.com/eWQL39z.jpeg",
+      "download": "https://www.mediafire.com/file/wt9o9bxcealaga5/DARK+MEGA.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ]
+    },
+    {
+      "id": 10233,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10245",
+      "name": "Sammori Skin",
+      "author": "Samer",
+      "about": "Author: Samer. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/xX1oHk3.jpeg",
+      "download": "https://www.mediafire.com/file/fhznybni43mbk3l/Sammori+Skin.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10234,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10247",
+      "name": "9da3 Skin",
+      "author": "9da3",
+      "about": "Author: 9da3. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/4O8Z5U4.jpeg",
+      "download": "https://www.mediafire.com/file/rz4u9hm6jft1nfq/9da3+SKIN.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10235,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10250",
+      "name": "Mist Of Despair",
+      "author": "Yadi",
+      "about": "Author: Yadi. A community-contributed modification for the Hevilz archive.",
+      "difficulty": "Hard",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/YUe4Ku6.jpeg",
+      "download": "https://www.mediafire.com/file/ssachzuzvdp1lcj/MIST+OF+DESPAIR+NEW+MOD.rar/file",
+      "installType": "standard-bin32-bio4"
+    },
+    {
+      "id": 10236,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10251",
+      "name": "L7N Skin",
+      "author": "L7N",
+      "about": "Author: L7N. A community-contributed modification for the Hevilz archive.",
+      "category": "skins",
+      "image": "https://i.imgur.com/YwgarIK.jpeg",
+      "download": "https://www.mediafire.com/file/5qlzwddz3za67r5/L7N+Skin.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ],
+      "character": "leon",
+      "skinType": "***FILL_IN_SKIN_TYPE***"
+    },
+    {
+      "id": 10237,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10254",
+      "name": "Doom Demon Mega",
+      "author": "realpious",
+      "about": "This mod replaces the Mega Salvador's skin with the Zombie Demon from the Doom Eternal game.",
+      "category": "enemies",
+      "image": "https://i.imgur.com/riZTht1.jpeg",
+      "download": "https://www.mediafire.com/file/4q84iz01gqch6ro/Mega+Salvador+Doom+Demon.rar/file",
+      "installGuide": [
+        {
+          "action": "copy",
+          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
+          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+        }
+      ]
+    },
+    {
+      "id": 10238,
+      "published": true,
+      "localOnly": false,
+      "source": "https://hevilzplatform.com/mod/10255",
+      "name": "Island Mod",
+      "author": "Juba",
+      "about": "Author: Juba. A community-contributed modification for the Hevilz archive.",
+      "difficulty": "Hard",
+      "category": "storyMods",
+      "image": "https://i.imgur.com/bfeFjfp.jpeg",
+      "download": "https://www.mediafire.com/file/gk9km22efo86pii/Demo+Island.rar/file",
       "installType": "standard-bin32-bio4"
     }
   ]
