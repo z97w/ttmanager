@@ -1778,7 +1778,7 @@
       ],
       "character": "leon",
       "skinType": "noJacket",
-      "flagged": true,
+      "flagged": false,
       "hidden": true
     },
     {
