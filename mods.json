@@ -1757,17 +1757,18 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10062,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/62",
       "name": "_5ej Skin",
       "author": "_5EJ",
-      "about": "***",
-      "platformSupport": "both",
-      "category": "skins",
+      "about": "By _5EJ",
+      "source": "https://hevilzplatform.com/mod/62",
       "image": "https://i.imgur.com/TvaHHab.jpeg",
       "download": "https://www.mediafire.com/file_premium/tw2u8211wx6lg7i/_5EJ_SKIN.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
       "installType": null,
       "installGuide": [
         {
@@ -1778,8 +1779,7 @@
       ],
       "character": "leon",
       "skinType": "noJacket",
-      "flagged": false,
-      "hidden": false
+      "id": 10062
     },
     {
       "id": 10063,
