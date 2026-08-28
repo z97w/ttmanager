@@ -4900,25 +4900,29 @@
       "installType": "standard-bin32-bio4"
     },
     {
-      "id": 10230,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10238",
       "name": "7RB Skin",
       "author": "7RB",
       "about": "Author: 7RB. A community-contributed modification for the Hevilz archive.",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10238",
       "image": "https://i.imgur.com/GNAzxD0.jpeg",
       "download": "https://www.mediafire.com/file/e7dksl62xl75knh/7RB+Skin.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "from": "BIO4",
+          "to": "BIO4/"
         }
       ],
       "character": "leon",
-      "skinType": "***FILL_IN_SKIN_TYPE***"
+      "skinType": "jacket",
+      "id": 10230
     },
     {
       "id": 10231,
