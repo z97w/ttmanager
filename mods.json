@@ -2050,7 +2050,7 @@
     },
     {
       "id": 10080,
-      "published": true,
+      "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/80",
       "name": "Deepslate Pack (Premium)",
