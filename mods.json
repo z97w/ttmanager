@@ -2083,23 +2083,26 @@
       "installType": "skin-bio4-folder"
     },
     {
-      "id": 10082,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/82",
       "name": "Ultra Weapons Sounds (Premium)",
       "author": "Jinwoo7",
       "about": "Ultra realistic premium weapon sound replacements for Resident Evil 4, sold as a paid item on the Hevilz store.",
-      "category": "sounds",
-      "image": "***",
+      "source": "https://hevilzplatform.com/mod/82",
+      "image": "https://i.imgur.com/gBImW1t.jpeg",
       "download": "https://hevilzstore.com/%D9%85%D9%88%D8%AF-%D8%A3%D8%B5%D9%88%D8%A7%D8%AA-%D9%84%D9%84%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-ultra-weapons-sounds/p1806267043",
+      "category": "sounds",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "copy",
           "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
-      ]
+      ],
+      "id": 10082
     },
     {
       "id": 10083,
