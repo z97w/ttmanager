@@ -1857,19 +1857,23 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10068,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/68",
       "name": "1rod Skin",
       "author": "1ROD",
-      "about": "***",
-      "category": "skins",
+      "about": "By 1ROD",
+      "source": "https://hevilzplatform.com/mod/68",
       "image": "https://i.imgur.com/sagfdK0.jpeg",
       "download": "https://www.mediafire.com/file_premium/n34h4napk9a3g9m/1ROD_SKIN.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
       "installType": "skin-bio4-folder",
+      "installGuide": [],
       "character": "leon",
-      "skinType": "noJacket"
+      "skinType": "noJacket",
+      "id": 10068
     },
     {
       "id": 10069,
