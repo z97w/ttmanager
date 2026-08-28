@@ -2334,13 +2334,8 @@
       ],
       "image": "https://i.ytimg.com/vi/Uzolu621aQA/hqdefault.jpg",
       "download": "https://www.mediafire.com/file/hm1sf4hg3da7n7z/The+Second+Font+Mod+By+Hevilz.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "imagepackhd",
-          "to": "BIO4/imagepackhd"
-        }
-      ]
+      "installType": "copy-all",
+      "installTypeTo": "BIO4/imagepackhd"
     },
     {
       "id": 10091,
