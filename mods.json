@@ -2398,7 +2398,8 @@
           "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
           "to": "***FILL_IN_GAME_RELATIVE_PATH***"
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": 10094,
