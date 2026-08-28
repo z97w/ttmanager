@@ -4984,25 +4984,29 @@
       "skinType": "***FILL_IN_SKIN_TYPE***"
     },
     {
-      "id": 10234,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10247",
       "name": "9da3 Skin",
       "author": "9da3",
       "about": "Author: 9da3. A community-contributed modification for the Hevilz archive.",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10247",
       "image": "https://i.imgur.com/4O8Z5U4.jpeg",
       "download": "https://www.mediafire.com/file/rz4u9hm6jft1nfq/9da3+SKIN.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "from": "BIO4",
+          "to": "BIO4/"
         }
       ],
       "character": "leon",
-      "skinType": "***FILL_IN_SKIN_TYPE***"
+      "skinType": "noJacket",
+      "id": 10234
     },
     {
       "id": 10235,
