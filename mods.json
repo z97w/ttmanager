@@ -2464,28 +2464,6 @@
       "hidden": true
     },
     {
-      "id": 10097,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/97",
-      "name": "How To Switch Between Mods",
-      "author": "Hevilz",
-      "about": "Guide for switching between installed mods, with an accompanying installation video tutorial.",
-      "category": [
-        "others",
-        "byHevilz"
-      ],
-      "image": "***",
-      "download": "***",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ]
-    },
-    {
       "id": 10098,
       "published": false,
       "localOnly": false,
