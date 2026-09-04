@@ -1115,22 +1115,26 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10023,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/23",
       "name": "Bald Leon Skin",
       "author": "Hevilz",
-      "about": "***",
+      "about": "By HEVILZ",
+      "source": "https://hevilzplatform.com/mod/23",
+      "image": "https://i.imgur.com/v5ozJ9g.jpeg",
+      "download": "https://www.mediafire.com/file_premium/okzso3y8aoyotnj/BALD_Leon_Mod.rar/file",
       "category": [
         "skins",
         "byHevilz"
       ],
-      "image": "https://i.imgur.com/v5ozJ9g.jpeg",
-      "download": "https://www.mediafire.com/file_premium/okzso3y8aoyotnj/BALD_Leon_Mod.rar/file",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
       "installType": "skin-bio4-folder",
+      "installGuide": [],
       "character": "leon",
-      "skinType": "jacket"
+      "skinType": "jacket",
+      "id": 10023
     },
     {
       "id": 10024,
