@@ -1712,19 +1712,23 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10059,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/59",
       "name": "Abu Alzee Skin",
       "author": "ABU ALZEE",
-      "about": "***",
-      "category": "skins",
+      "about": "By ABU ALZEE",
+      "source": "https://hevilzplatform.com/mod/59",
       "image": "https://i.imgur.com/MCi2b78.jpeg",
       "download": "https://www.mediafire.com/file_premium/z5mxl3pnka14dzt/ABU_ALZEE_SKIN.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
       "installType": "skin-bio4-folder",
+      "installGuide": [],
       "character": "leon",
-      "skinType": "jacket"
+      "skinType": "jacket",
+      "id": 10059
     },
     {
       "id": 10060,
