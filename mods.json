@@ -4793,25 +4793,29 @@
       "skinType": "***FILL_IN_SKIN_TYPE***"
     },
     {
-      "id": 10225,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10230",
       "name": "Abusfir Skin",
       "author": "ABUSFIR",
       "about": "Author: ABUSFIR. A community-contributed modification for the Hevilz archive.",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/10230",
       "image": "https://i.imgur.com/NgSShHE.jpeg",
       "download": "https://www.mediafire.com/file/6bjr7yn4za58s57/ABUSFIR+Skin.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
+          "from": "BIO4",
+          "to": "BIO4/"
         }
       ],
       "character": "leon",
-      "skinType": "***FILL_IN_SKIN_TYPE***"
+      "skinType": "noJacket",
+      "id": 10225
     },
     {
       "id": 10226,
