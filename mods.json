@@ -1374,19 +1374,26 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10038,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/38",
       "name": "Abu Chris Skin",
       "author": "ABU CHRIS",
       "about": "About This Mod - FILE.038 by ABU CHRIS. No extended narrative description was provided on the page beyond the file listing.",
-      "category": "skins",
+      "source": "https://hevilzplatform.com/mod/38",
       "image": "https://i.imgur.com/XtTwiep.jpeg",
       "download": "https://www.mediafire.com/file_premium/sgh6gt1n7xwtb81/ABU_CHRIS_SKIN.rar/file",
+      "category": "skins",
+      "platformSupport": "both",
+      "published": true,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
       "installType": "skin-bio4-folder",
+      "installGuide": [],
+      "restrictedToDevices": [
+        4
+      ],
       "character": "leon",
-      "skinType": "noJacket"
+      "skinType": "noJacket",
+      "id": 10038
     },
     {
       "id": 10039,
