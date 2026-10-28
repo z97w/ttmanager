@@ -5045,7 +5045,7 @@
     },
     {
       "id": 10255,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10255",
       "name": "Island Mod",
