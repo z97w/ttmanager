@@ -1911,7 +1911,7 @@
     },
     {
       "id": 10070,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/70",
       "name": "Player7z Skin",
