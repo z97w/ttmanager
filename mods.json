@@ -1286,7 +1286,7 @@
     },
     {
       "id": 10032,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/32",
       "name": "Winchester Skin 2",
