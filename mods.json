@@ -1887,9 +1887,6 @@
       "localOnly": false,
       "installType": "skin-bio4-folder",
       "installGuide": [],
-      "restrictedToDevices": [
-        4
-      ],
       "character": "leon",
       "skinType": "noJacket",
       "id": 10068
