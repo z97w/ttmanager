@@ -25,7 +25,7 @@
     },
     {
       "id": 10002,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/2",
       "name": "Remodel All Weapons",
