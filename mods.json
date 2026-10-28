@@ -4428,7 +4428,7 @@
     },
     {
       "id": 10202,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/202",
       "name": "Randomizer (Items - Enemies)",
