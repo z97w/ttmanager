@@ -2477,65 +2477,35 @@
       "hidden": true
     },
     {
-      "id": 10098,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10098",
       "name": "Ammo Stacking",
       "author": "ZORO333",
       "about": "Combines ammo types into stacked inventory slots.",
-      "category": "others",
+      "source": "https://hevilzplatform.com/mod/10098",
       "image": "https://i.imgur.com/F7Jkob7.jpeg",
       "download": "https://www.mediafire.com/file/zmg9tlzthozh1f1/Ammo+Stacking.rar/file",
-      "selectableVariants": {
-        "label": "اختر كمية تكديس الذخيرة / Choose ammo stack amount",
-        "options": [
-          {
-            "id": "999",
-            "label": "999",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "Ammo Stacking/Ammo Stacking/999/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          },
-          {
-            "id": "x2",
-            "label": "x2",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "Ammo Stacking/Ammo Stacking/x2/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          },
-          {
-            "id": "x3",
-            "label": "x3",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "Ammo Stacking/Ammo Stacking/x3/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          },
-          {
-            "id": "x4",
-            "label": "x4",
-            "installGuide": [
-              {
-                "action": "copy",
-                "from": "Ammo Stacking/Ammo Stacking/x4/bio4.exe",
-                "to": "Bin32/bio4.exe"
-              }
-            ]
-          }
-        ]
-      }
+      "category": "others",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": null,
+      "installGuide": [],
+      "patches": [
+        {
+          "name": "999",
+          "type": "patch",
+          "required": true,
+          "installType": null,
+          "installGuide": [
+            {
+              "action": "copy",
+              "from": "999/bio4.exe",
+              "to": ""
+            }
+          ]
+        }
+      ],
+      "id": 10098
     },
     {
       "id": 10099,
