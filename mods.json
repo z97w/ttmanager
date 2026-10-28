@@ -863,7 +863,7 @@
     },
     {
       "id": 10012,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/12",
       "name": "Wesker Coat Skin",
