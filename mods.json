@@ -1271,7 +1271,7 @@
     },
     {
       "id": 10031,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/31",
       "name": "Verdugo Skin",
