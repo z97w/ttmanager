@@ -2443,7 +2443,7 @@
       "hidden": true
     },
     {
-      "id": 10095,
+      "id": 10227,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10227",
@@ -4217,7 +4217,7 @@
       "installType": "standard-bin32-bio4"
     },
     {
-      "id": 10190,
+      "id": 10249,
       "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10249",
@@ -4716,7 +4716,7 @@
       "installType": "standard-bin32-bio4"
     },
     {
-      "id": 10220,
+      "id": 10221,
       "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10221",
@@ -4738,7 +4738,7 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10221,
+      "id": 10224,
       "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10224",
@@ -4779,7 +4779,7 @@
       "installType": "standard-bin32-bio4"
     },
     {
-      "id": 10223,
+      "id": 10225,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10225",
@@ -4796,7 +4796,7 @@
       "platformSupport": "original"
     },
     {
-      "id": 10224,
+      "id": 10228,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10228",
@@ -4839,10 +4839,10 @@
       ],
       "character": "leon",
       "skinType": "noJacket",
-      "id": 10225
+      "id": 10230
     },
     {
-      "id": 10226,
+      "id": 10232,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10232",
@@ -4863,7 +4863,7 @@
       "skinType": "noJacket"
     },
     {
-      "id": 10227,
+      "id": 10234,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10234",
@@ -4880,7 +4880,7 @@
       "platformSupport": "original"
     },
     {
-      "id": 10228,
+      "id": 10235,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10235",
@@ -4936,10 +4936,10 @@
       ],
       "character": "leon",
       "skinType": "jacket",
-      "id": 10230
+      "id": 10238
     },
     {
-      "id": 10231,
+      "id": 10240,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10240",
@@ -4958,7 +4958,7 @@
       ]
     },
     {
-      "id": 10232,
+      "id": 10242,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10242",
@@ -4977,7 +4977,7 @@
       ]
     },
     {
-      "id": 10233,
+      "id": 10245,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10245",
@@ -5020,10 +5020,10 @@
       ],
       "character": "leon",
       "skinType": "noJacket",
-      "id": 10234
+      "id": 10247
     },
     {
-      "id": 10235,
+      "id": 10250,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10250",
@@ -5061,7 +5061,7 @@
       "skinType": "***FILL_IN_SKIN_TYPE***"
     },
     {
-      "id": 10237,
+      "id": 10254,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10254",
@@ -5080,7 +5080,7 @@
       ]
     },
     {
-      "id": 10238,
+      "id": 10255,
       "published": false,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/10255",
