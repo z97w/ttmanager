@@ -2898,7 +2898,7 @@
     },
     {
       "id": 10118,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/118",
       "name": "Castle Trap",
