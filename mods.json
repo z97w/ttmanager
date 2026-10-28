@@ -1253,7 +1253,7 @@
     },
     {
       "id": 10030,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/30",
       "name": "Last Phase Skin",
