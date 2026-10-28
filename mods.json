@@ -2503,6 +2503,19 @@
               "to": ""
             }
           ]
+        },
+        {
+          "name": "x2",
+          "type": "patch",
+          "required": true,
+          "installType": null,
+          "installGuide": [
+            {
+              "action": "copy",
+              "from": "x2/bio4.exe",
+              "to": ""
+            }
+          ]
         }
       ],
       "id": 10098
