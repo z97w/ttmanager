@@ -1192,7 +1192,7 @@
     },
     {
       "id": 10027,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/27",
       "name": "Dark Costume",
