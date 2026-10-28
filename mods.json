@@ -3,7 +3,7 @@
   "mods": [
     {
       "id": 10001,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/1",
       "name": "Ultimate Weapons Retexture",
