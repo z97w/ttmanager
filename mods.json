@@ -2494,7 +2494,7 @@
         {
           "name": "999",
           "type": "patch",
-          "required": true,
+          "required": false,
           "installType": null,
           "installGuide": [
             {
@@ -2507,7 +2507,7 @@
         {
           "name": "x2",
           "type": "patch",
-          "required": true,
+          "required": false,
           "installType": null,
           "installGuide": [
             {
