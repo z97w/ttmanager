@@ -3481,20 +3481,19 @@
       ]
     },
     {
-      "id": 10151,
-      "published": true,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10151",
       "name": "EXTREME CONDITION MOD | مود البرازيلي",
       "author": "LuisWebber",
       "about": "By LuisWebber. Easy difficulty full overhaul mod.",
-      "modLength": "medium",
-      "platformSupport": "both",
-      "lootDensity": "abundant",
-      "difficulty": "Easy",
-      "category": "storyMods",
+      "source": "https://hevilzplatform.com/mod/10151",
       "image": "https://cdn.jsdelivr.net/gh/hevillz/hevilz-assets@main/story/61.jpg",
       "download": "https://www.mediafire.com/file/9yzskhnjodw8bgs/Extreme+Condition+مود+البرازيلي+FIXED+PORT.rar/file",
+      "category": "storyMods",
+      "platformSupport": "both",
+      "published": true,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": null,
       "installGuide": [
         {
           "action": "select",
@@ -3510,7 +3509,11 @@
           "from": "BIO4",
           "to": "BIO4/"
         }
-      ]
+      ],
+      "modLength": "medium",
+      "lootDensity": "abundant",
+      "difficulty": "Easy",
+      "id": 10151
     },
     {
       "id": 10152,
