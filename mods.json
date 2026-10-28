@@ -2489,7 +2489,7 @@
       "source": "https://hevilzplatform.com/mod/98",
       "name": "Ammo Stacking",
       "author": "ZORO333",
-      "about": "Combines ammo types into stacked inventory slots for streamlined inventory management.",
+      "about": "Combines ammo types into stacked inventory slots.",
       "category": "others",
       "image": "https://i.imgur.com/F7Jkob7.jpeg",
       "download": "https://www.mediafire.com/file/zmg9tlzthozh1f1/Ammo+Stacking.rar/file",
@@ -3189,7 +3189,7 @@
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/133",
       "name": "Unknown of Evil",
-      "author": "Tex",
+      "author": "0000.TEX",
       "about": "By 0000.TEX. Very Hard difficulty full overhaul mod.",
       "modLength": "short",
       "platformSupport": "hd",
@@ -5498,6 +5498,25 @@
       "skinType": "noJacket",
       "platformSupport": "both",
       "id": 10251
+    },
+    {
+      "name": "L7N SKIN",
+      "author": "Unknown",
+      "about": "***",
+      "source": "https://hevilzplatform.com/mod/10260",
+      "image": "https://i.imgur.com/DnMQIHd.jpeg",
+      "download": "https://www.mediafire.com/file/3vzwvri416u13an/L7NN+SKIN.rar/file",
+      "category": "skins",
+      "published": false,
+      "hidden": false,
+      "flagged": false,
+      "localOnly": false,
+      "installType": "skin-bio4-folder",
+      "installGuide": [],
+      "character": "leon",
+      "skinType": "noJacket",
+      "platformSupport": "both",
+      "id": 10260
     }
   ]
 }
