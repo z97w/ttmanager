@@ -2296,7 +2296,7 @@
     },
     {
       "id": 10088,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/88",
       "name": "Magic Book",
