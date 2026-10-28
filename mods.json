@@ -1156,7 +1156,7 @@
     },
     {
       "id": 10025,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/25",
       "name": "Red Costume",
