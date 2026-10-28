@@ -5040,27 +5040,6 @@
       "platformSupport": "original"
     },
     {
-      "id": 10236,
-      "published": false,
-      "localOnly": false,
-      "source": "https://hevilzplatform.com/mod/10251",
-      "name": "L7N Skin",
-      "author": "L7N",
-      "about": "Author: L7N. A community-contributed modification for the Hevilz archive.",
-      "category": "skins",
-      "image": "https://i.imgur.com/YwgarIK.jpeg",
-      "download": "https://www.mediafire.com/file/5qlzwddz3za67r5/L7N+Skin.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
-      "character": "leon",
-      "skinType": "***FILL_IN_SKIN_TYPE***"
-    },
-    {
       "id": 10254,
       "published": false,
       "localOnly": false,
