@@ -1744,7 +1744,7 @@
     },
     {
       "id": 10060,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/60",
       "name": "Sabo Skin",
