@@ -2177,11 +2177,11 @@
       "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/85",
-      "name": "New Zombie With Sound",
+      "name": "Resident Evil 1 Zombie",
       "author": "Hevilz",
-      "about": "Replaces a standard zombie enemy with a new zombie model that includes custom accompanying sound effects.",
+      "about": "This mod replaces the skinny Villager to the RE1 zombie",
       "category": [
-        "others",
+        "enemies",
         "byHevilz"
       ],
       "image": "https://i.ytimg.com/vi/T6uv3xPtlR8/hqdefault.jpg",
@@ -4454,8 +4454,8 @@
       "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/203",
-      "name": "RISING OF EVIL DEFINITIVE EDITION",
-      "author": "LuisWebber (Definitive Edition by Kteo)",
+      "name": "RISING OF EVIL DEFINITIVE EDITION | رايزنق المحسن",
+      "author": "LuisWebber",
       "about": "By LuisWebber. Medium difficulty full overhaul mod.",
       "modLength": "long",
       "platformSupport": "original",
@@ -4806,15 +4806,10 @@
       "category": "skins",
       "image": "https://i.imgur.com/j4xSxc9.jpeg",
       "download": "https://www.mediafire.com/file/nicgfppf2s5jbum/ZAY+Skin.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
+      "installGuide": [],
       "character": "leon",
-      "skinType": "noJacket"
+      "skinType": "noJacket",
+      "installType": "skin-bio4-folder"
     },
     {
       "name": "ABUSFIR SKIN",
@@ -4852,15 +4847,10 @@
       "category": "skins",
       "image": "https://i.imgur.com/1FLsGKY.jpeg",
       "download": "https://www.mediafire.com/file/hgpvhm93ifydqwz/itsDax+SKIN.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
+      "installGuide": [],
       "character": "leon",
-      "skinType": "noJacket"
+      "skinType": "noJacket",
+      "installType": "skin-bio4-folder"
     },
     {
       "id": 10234,
@@ -4987,15 +4977,10 @@
       "category": "skins",
       "image": "https://i.imgur.com/xX1oHk3.jpeg",
       "download": "https://www.mediafire.com/file/fhznybni43mbk3l/Sammori+Skin.rar/file",
-      "installGuide": [
-        {
-          "action": "copy",
-          "from": "***FILL_IN_ARCHIVE_INTERNAL_PATH***",
-          "to": "***FILL_IN_GAME_RELATIVE_PATH***"
-        }
-      ],
+      "installGuide": [],
       "character": "leon",
-      "skinType": "noJacket"
+      "skinType": "noJacket",
+      "installType": "skin-bio4-folder"
     },
     {
       "name": "9da3 SKIN",
