@@ -1098,7 +1098,7 @@
     },
     {
       "id": 10022,
-      "published": false,
+      "published": true,
       "localOnly": false,
       "source": "https://hevilzplatform.com/mod/22",
       "name": "Silver Costume",
