@@ -5467,11 +5467,12 @@
     {
       "name": "L7N SKIN",
       "author": "Unknown",
-      "about": "***",
+      "about": "Author: null. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10260",
       "image": "https://i.imgur.com/DnMQIHd.jpeg",
       "download": "https://www.mediafire.com/file/3vzwvri416u13an/L7NN+SKIN.rar/file",
       "category": "skins",
+      "platformSupport": "both",
       "published": false,
       "hidden": false,
       "flagged": false,
@@ -5480,7 +5481,6 @@
       "installGuide": [],
       "character": "leon",
       "skinType": "noJacket",
-      "platformSupport": "both",
       "id": 10260
     }
   ]
