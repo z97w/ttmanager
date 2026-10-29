@@ -2054,7 +2054,10 @@
       "name": "Golden Rose Pack",
       "author": "Hevilz",
       "about": "Golden Rose themed visual overhaul.",
-      "category": "weapons",
+      "category": [
+        "weapons",
+        "byHevilz"
+      ],
       "image": "https://i.ytimg.com/vi/6Bz4LC8eSpE/hqdefault.jpg",
       "download": "https://www.mediafire.com/file/3sayd6j38n2c3nk/Golden+Rose+Pack+Mod+(+Free+Release+).rar/file",
       "installGuide": [
@@ -5043,7 +5046,7 @@
     {
       "name": "Patch Of The Damned",
       "author": "Hobi Gamez",
-      "about": "***",
+      "about": "Patch Of The Damned by Hobi Gamez. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10280",
       "image": "https://i.imgur.com/tDev7ZJ.jpeg",
       "download": "https://www.mediafire.com/file/dfjtzu4zecpo9ox/MOD+PATCH+OF+THE+DAMNED.rar/file",
@@ -5069,7 +5072,7 @@
     {
       "name": "Hollow Radiance Mod",
       "author": "Wisouls",
-      "about": "***",
+      "about": "Hollow Radiance Mod by Wisouls. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10279",
       "image": "https://i.imgur.com/QRsYGU5.jpeg",
       "download": "https://www.mediafire.com/file/ddlhr5k8k2w8518/Hollow+Radiance+(UHD).rar/file",
@@ -5120,7 +5123,7 @@
     {
       "name": "Walls Of Agony",
       "author": "WK MODDER",
-      "about": "***",
+      "about": "Walls Of Agony by WK MODDER. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10276",
       "image": "https://i.imgur.com/2BLsFWb.jpeg",
       "download": "https://www.mediafire.com/file/ie28fzaj8ahg55o/walls+of+agony+port+uhd.zip/file",
@@ -5145,8 +5148,8 @@
     },
     {
       "name": "SHURA SKIN",
-      "author": "Unknown",
-      "about": "***",
+      "author": "Shura",
+      "about": "SHURA SKIN by Shura. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10274",
       "image": "https://i.imgur.com/YA0q4vv.jpeg",
       "download": "https://www.mediafire.com/file/khxd0mus06on6x2/Shura+Skin.rar/file",
@@ -5170,7 +5173,7 @@
     },
     {
       "name": "ASTRO SKIN",
-      "author": "Unknown",
+      "author": "ASTRO",
       "about": "Author: null. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10272",
       "image": "https://i.imgur.com/r1A17qf.jpeg",
@@ -5196,7 +5199,7 @@
     {
       "name": "SO SKIN",
       "author": "SO",
-      "about": "***",
+      "about": "SO SKIN by SO. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10270",
       "image": "https://i.imgur.com/0NdZci7.jpeg",
       "download": "https://www.mediafire.com/file/26whweujez320ed/SO+SKIN.rar/file",
@@ -5221,7 +5224,7 @@
     {
       "name": "BLOODSTAINED Weapon Pack",
       "author": "nein",
-      "about": "***",
+      "about": "BLOODSTAINED Weapon Pack by nein. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10269",
       "image": "https://i.imgur.com/lH4H25G.jpeg",
       "download": "https://www.mediafire.com/file/862tgo50zon4lzx/Bloodstained+Weapon+Pack+By+Nein.rar/file",
@@ -5243,7 +5246,7 @@
     {
       "name": "Operation ALPHA",
       "author": "JUBA",
-      "about": "***",
+      "about": "Operation ALPHA by JUBA. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10268",
       "image": "https://i.imgur.com/55LIr5X.jpeg",
       "download": "https://www.mediafire.com/file/4jmpz69wsd4h3rw/OPERATION+ALPHA.rar/file",
@@ -5269,7 +5272,7 @@
     {
       "name": "RED THUNDER WEAPON PACK",
       "author": "Alaurd",
-      "about": "***",
+      "about": "RED THUNDER WEAPON PACK by Alaurd. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10267",
       "image": "https://i.imgur.com/rQTJmTn.jpeg",
       "download": "https://www.mediafire.com/file/bvttv0o7ueb16zl/RED+THUNDER+WEAPON+CAMO.rar/file",
@@ -5313,7 +5316,7 @@
     {
       "name": "The Silent Torment",
       "author": "mohanad",
-      "about": "***",
+      "about": "The Silent Torment by mohanad. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10265",
       "image": "https://i.imgur.com/87lL0BP.jpeg",
       "download": "https://www.mediafire.com/file/qriw0csuj87u1fk/RE4+UHD+MOD+THE+SILENT+TORMENT+BY+MOHANAD.rar/file",
@@ -5339,7 +5342,7 @@
     {
       "name": "The Dark Way REMAKE",
       "author": "7RB",
-      "about": "***",
+      "about": "The Dark Way REMAKE by 7RB. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10264",
       "image": "https://i.imgur.com/Wvjawmp.jpeg",
       "download": "https://www.mediafire.com/file/jmtvd8xlcrjbxit/The+Dark+Way+Remake7RB.rar/file",
@@ -5364,8 +5367,8 @@
     },
     {
       "name": "LEGACY AGENT LEON",
-      "author": "Unknown",
-      "about": "***",
+      "author": "ALI AR4",
+      "about": "LEGACY AGENT LEON by ALI AR4. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10262",
       "image": "https://i.imgur.com/0CbDvOU.jpeg",
       "download": "https://www.mediafire.com/file/axk0z1r882gv9la/Resident+Evil+4+UHD+Leon+-+Legacy+Agent+ALI+AR+Skin.rar/file",
@@ -5390,7 +5393,7 @@
     {
       "name": "The Greedy Merchant",
       "author": "M7MD",
-      "about": "***",
+      "about": "The Greedy Merchant by M7MD. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10259",
       "image": "https://i.imgur.com/tF4qsNO.jpeg",
       "download": "https://www.mediafire.com/file/r7twvboxiiod5ex/The+Greedy+Merchant.rar/file",
@@ -5416,7 +5419,7 @@
     {
       "name": "Whisper Of Hell",
       "author": "IZUL",
-      "about": "***",
+      "about": "Whisper Of Hell by IZUL. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10257",
       "image": "https://i.imgur.com/UHo8rSQ.jpeg",
       "download": "https://www.mediafire.com/file/cu7hpn1avjgpx91/NEW+MOD+WHISPER+OFF+HELL.rar/file",
@@ -5442,7 +5445,7 @@
     {
       "name": "Simon Skin",
       "author": "Simon",
-      "about": "***",
+      "about": "Simon Skin by Simon. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10251",
       "image": "https://i.imgur.com/QUQvQaH.jpeg",
       "download": "https://www.mediafire.com/file/5qlzwddz3za67r5/L7N+Skin.rar/file",
@@ -5466,7 +5469,7 @@
     },
     {
       "name": "L7N SKIN",
-      "author": "Unknown",
+      "author": "L7N",
       "about": "Author: null. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10260",
       "image": "https://i.imgur.com/DnMQIHd.jpeg",
