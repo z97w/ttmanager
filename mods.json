@@ -5171,11 +5171,12 @@
     {
       "name": "ASTRO SKIN",
       "author": "Unknown",
-      "about": "***",
+      "about": "Author: null. A community-contributed modification for the Hevilz archive.",
       "source": "https://hevilzplatform.com/mod/10272",
       "image": "https://i.imgur.com/r1A17qf.jpeg",
       "download": "https://www.mediafire.com/file/yppig36hgyx2g3q/ASTRO+SKIN.rar/file",
       "category": "skins",
+      "platformSupport": "both",
       "published": false,
       "hidden": false,
       "flagged": false,
@@ -5190,7 +5191,6 @@
       ],
       "character": "leon",
       "skinType": "noJacket",
-      "platformSupport": "both",
       "id": 10272
     },
     {
